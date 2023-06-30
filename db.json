@@ -1,0 +1,265 @@
+{
+  "producto": [
+    {
+      "name": "JBL Charge 3",
+      "imageURL": "https://i.pinimg.com/564x/1f/a4/48/1fa4480560df44ee89736d4223ed5552.jpg",
+      "price": "$1500.00",
+      "category": "electronics",
+      "id": 1
+    },
+    {
+      "name": "JBL Xtreme 2",
+      "imageURL": "https://cdn.shopify.com/s/files/1/0487/3532/2266/products/19234-fbeaaf53-81f2-485e-92c3-ef97480c1b1f-None_1200x.png?v=1624530276",
+      "category": "electronics",
+      "price": "$5000.00",
+      "id": 2
+    },
+    {
+      "name": "Mando inalambrico Xbox",
+      "imageURL": "https://cdn.shopify.com/s/files/1/0487/3532/2266/products/19234-fbeaaf53-81f2-485e-92c3-ef97480c1b1f-None_1200x.png?v=1624530276",
+      "description": "Edicion limitada de Gears of War 4 Crimson Omen",
+      "category": "electronics",
+      "price": "$2873.00",
+      "id": 3
+    },
+    {
+      "name": "Men Sport Watch",
+      "imageURL": "https://i.pinimg.com/564x/51/2a/f3/512af3fe66c576dc61d934291d654583.jpg",
+      "category": "electronics",
+      "price": "$985.00",
+      "id": 4
+    },
+    {
+      "name": "INIU Power Bank",
+      "imageURL": "https://i.pinimg.com/564x/88/0d/b0/880db03d553573d77fa86ab01e50662e.jpg",
+      "description": "El más avanzado PD 3.0 y QC 4+ de tecnologías combinadas para una carga rápida",
+      "category": "electronics",
+      "price": " $375.84",
+      "id": 5
+    },
+    {
+      "name": "Fujifilm Instax Mini 9",
+      "imageURL": "https://i.pinimg.com/564x/1a/e2/3d/1ae23d1e1582541be8efc3e0f336b25c.jpg",
+      "description": "Cámara para selfies incorporada",
+      "category": "electronics",
+      "price": "$1173.00",
+      "id": 6
+    },
+    {
+      "name": "Canon EOS 6D Mark II",
+      "imageURL": "https://i.pinimg.com/564x/38/d9/57/38d957a1566cfce8db59321967324c98.jpg",
+      "description": " Con la velocidad para capturar acción y la versatilidad para crear fotografías fenomenales y videos Full HD",
+      "category": "electronics",
+      "price": "$2299.00",
+      "id": 7
+    },
+    {
+      "name": "Samsung  2021 Neo QLED",
+      "imageURL": "https://i.pinimg.com/564x/42/5e/e9/425ee9b50948e4370e7e8c63de4ff8b6.jpg",
+      "description": " Audio Potencia de audio 70 W Tecnología de sonido Seguimiento de objetos Sound Plus Altavoces 8 Procesamiento de sonido Dol",
+      "category": "electronics",
+      "price": " $16659.83",
+      "id": 8
+    },
+    {
+      "name": "Audifonos inalambricos",
+      "imageURL": "https://i.pinimg.com/564x/7f/ac/11/7fac114d62c4570a0746fb8195512e6f.jpg",
+      "description": "Auriculares inalámbricos con cancelación de ruido Beats Solo Pro ",
+      "category": "electronics",
+      "price": " $6459.83",
+      "id": 9
+    },
+    {
+      "name": "Audifonos JBL",
+      "imageURL": "https://i.pinimg.com/564x/8c/db/e1/8cdbe123010c380e20f264a8fdd57938.jpg",
+      "description": "Auriculares inalámbricos con cancelación de ruido Beats Solo Pro ",
+      "category": "electronics",
+      "price": "$1785.00",
+      "id": 10
+    },
+    {
+      "name": "Cazadora de universidad",
+      "imageURL": "https://i.pinimg.com/564x/ac/2b/72/ac2b72d8c9afddfa5dbf7700d0914a6f.jpg",
+      "description": "Cazadora de universidad con parche de letra de color combinado de ribete de rayas ",
+      "category": "clothes",
+      "price": "$636.00",
+      "id": 11
+    },
+    {
+      "name": "Women's Mid-Rise Trousers",
+      "imageURL": "https://i.pinimg.com/564x/98/d1/a9/98d1a99ae827037c6734d9bec92f535d.jpg",
+      "description": "Pantalones de tiro medio para mujer",
+      "category": "clothes",
+      "price": "$300.00",
+      "id": 12
+    },
+    {
+      "name": "Pullower",
+      "imageURL": "https://i.pinimg.com/564x/38/82/b3/3882b31cf7cd93ebab9f0c716f6e2874.jpg",
+      "description": "Pullower con estampado de letra y dibnujos animados con forro termico",
+      "category": "clothes",
+      "price": "$262.00",
+      "id": 13
+    },
+    {
+      "name": "Vaquero de talle alto",
+      "imageURL": "https://i.pinimg.com/564x/e3/ae/a2/e3aea2ff4d5de7c09e57f34f4f8bdcc5.jpg",
+      "description": "Lavado claro cuello, vaquero liso pernera recta adornado no elástico",
+      "category": "clothes",
+      "price": "$452.44",
+      "id": 14
+    },
+    {
+      "name": "Jogger",
+      "imageURL": "https://i.pinimg.com/564x/e3/ae/a2/e3aea2ff4d5de7c09e57f34f4f8bdcc5.jpg",
+      "description": "Joggers cargo con cordon en la cintura, 95% algodón",
+      "category": "clothes",
+      "price": "$665.95",
+      "id": 15
+    },
+    {
+      "name": "Camisa",
+      "imageURL": "https://i.pinimg.com/564x/dd/ca/c6/ddcac69dab557d1d67350462492ccc6b.jpg",
+      "description": "Camisa negra informal de manga corta satinada lisa con adornos no elásticos de verano para hombres",
+      "category": "clothes",
+      "price": "$204.81",
+      "id": 16
+    },
+    {
+      "name": "Pack de 3 hipsters",
+      "imageURL": "https://i.pinimg.com/564x/64/7d/19/647d19cd4a6712402a9591173d7b5337.jpg",
+      "description": "Hechos de una mezcla rica en algodón con mayor elasticidad",
+      "category": "clothes",
+      "price": "$200.00",
+      "id": 17
+    },
+    {
+      "name": "Vestido smock",
+      "imageURL": "https://i.pinimg.com/564x/cd/14/74/cd1474b31193d956ea19db2a94175a3b.jpg",
+      "description": "Vestido de color combinado ribete con fruncido bajo",
+      "category": "clothes",
+      "price": "$440.00",
+      "id": 18
+    },
+    {
+      "name": "Converse Chuck",
+      "imageURL": "https://i.pinimg.com/564x/cd/14/74/cd1474b31193d956ea19db2a94175a3b.jpg",
+      "description": "Zapatillas altas Chuck 70 de Converse",
+      "category": "shoes",
+      "price": "$1075.00",
+      "id": 19
+    },
+    {
+      "name": "DC Shoe",
+      "imageURL": "https://m.media-amazon.com/images/I/81u--PmhlTL._AC_SX695_.jpg",
+      "description": "DC Men's Deadpool Court Graffik Skate Shoe",
+      "category": "shoes",
+      "price": "$1075.00",
+      "id": 20
+    },
+    {
+      "name": "DC Shoe Tenis",
+      "imageURL": "https://m.media-amazon.com/images/I/71kLOBP3aeL._AC_SX695_.jpg",
+      "description": "DC Shoes Tenis Casuales Dama ADJS300194WS4 Textil BCO",
+      "category": "shoes",
+      "price": "$799.00",
+      "id": 21
+    },
+    {
+      "name": "Tenis de Piel",
+      "imageURL": "https://m.media-amazon.com/images/I/41lgBa7ml1L._AC_SX695_.jpg",
+      "description": "VICEVERSA Crazy Horse para Hombre color miel ",
+      "category": "shoes",
+      "price": "$1449.00",
+      "id": 22
+    },
+    {
+      "name": "sandalias Mayari",
+      "imageURL": "https://m.media-amazon.com/images/I/71u90pi9KRL._AC_SX695_.jpg",
+      "description": "Birkenstock doble hebilla ajustable y planntilla de corcho ",
+      "category": "shoes",
+      "price": "$2590.00",
+      "id": 23
+    },
+    {
+      "name": "Teia bloqueador solar",
+      "imageURL": "https://m.media-amazon.com/images/I/51Qu6p7mRAL._AC_SL1080_.jpg",
+      "description": "Protector solar en polvo 30FPS 100% mineral",
+      "category": "Cosmetics",
+      "price": "$370.00",
+      "id": 24
+    },
+    {
+      "name": "Bloqueador solar",
+      "imageURL": "https://m.media-amazon.com/images/I/61HHcrSDxcL._AC_SL1500_.jpg",
+      "description": "Nivea sun protector solar facial control de brillo tono medio",
+      "category": "Cosmetics",
+      "price": "$370.00",
+      "id": 25
+    },
+    {
+      "name": "Gel purificante",
+      "imageURL": "https://m.media-amazon.com/images/I/6193xRlo0JL._AC_SL1500_.jpg",
+      "description": "La Roche Posay Effaclar facial para piel grasa",
+      "category": "cosmetics",
+      "price": "$495.00",
+      "id": 26
+    },
+    {
+      "name": "Labial Revlon",
+      "imageURL": "https://m.media-amazon.com/images/I/710l04xQGJL._AC_SL1500_.jpg",
+      "description": "Labial liquido colorstay satin ink",
+      "category": "cosmetics",
+      "price": "$127.00",
+      "id": 27
+    },
+    {
+      "name": "Gel para ceja",
+      "imageURL": "https://m.media-amazon.com/images/I/41xqAfB2dZL._AC_SL1200_.jpg",
+      "description": "Pink Up, Organic Brows para peinar la ceja.",
+      "category": "Cosmetics",
+      "price": "$108.00",
+      "id": 28
+    },
+    {
+      "name": "U Chef utensilios de cocina",
+      "imageURL": "https://m.media-amazon.com/images/I/614y7owaWtS._AC_SL1200_.jpg",
+      "description": "Juego de utensilios de cocina de espátulas, cucharones, pinzas de cocina y medidores de madera",
+      "category": "Hogar",
+      "price": "$649.00",
+      "id": 28
+    },
+    {
+      "name": "Cómoda De 5 Cajones",
+      "imageURL": "https://m.media-amazon.com/images/I/51lHI6tBqsL._AC_SL1200_.jpg",
+      "description": "Almacenamiento para hogar y oficina",
+      "category": "Hogar",
+      "price": "$1899.00",
+      "id": 28
+    },
+    {
+      "name": "Kit de limpieza",
+      "imageURL": "https://m.media-amazon.com/images/I/614ioIOyzyL._AC_SL1096_.jpg",
+      "description": "Kit limpieza completo de casa, inlcuye colgador",
+      "category": "Hogar",
+      "price": "$929.00",
+      "id": 29
+    },
+    {
+      "name": "Toallas de baño ",
+      "imageURL": "https://m.media-amazon.com/images/I/91qdC9X1gPL._AC_SL1500_.jpg",
+      "description": "Toallas de baño marrones de alta calidad",
+      "category": "Hogar",
+      "price": "$388.00",
+      "id": 30
+    },
+    {
+      "name": "Luces colgantes",
+      "imageURL": "https://m.media-amazon.com/images/I/71vvScma1dL._AC_SL1500_.jpg",
+      "description": "Lámpara de ratán con cuerda de cáñamo ajustable",
+      "category": "Hogar",
+      "price": "$899.00",
+      "id": 31
+    }
+  ]
+}

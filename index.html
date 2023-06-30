@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>OnlineShoping</title>
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="./src/images/icono-car.jpg" />
+    <!-- Tailwind -->
+    <link href="./dist/output.css" rel="stylesheet" />
+    <!-- Font Awesome  -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <!-- Google Fonts Raleway -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;400;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header class="py-8 px-[9.5rem] flex gap-8 max-[768px]:px-8 items-center">
+      <div class="flex w-52 justify-start">
+        <a href="#" class="flex justify-center items-center">
+          <img
+            class="w-10 h-10"
+            src="./src/images/shopping-cart.png"
+            alt="logo OnlineShoping from flaticon"
+          />
+          <p class="font-raleway">
+            <span class="text-Blue-De-France font-bold">Online</span>Shoping
+          </p>
+        </a>
+      </div>
+      <div
+        class="flex w-full justify-between max-[480px]:flex-row-reverse max-[480px]:gap-2"
+      >
+        <div class="flex items-center">
+          <input
+            type="search"
+            name="search"
+            id="search"
+            class="input-search outline-none mr-20 max-[480px]:hidden"
+            placeholder="¿Qué deseas buscar?"
+          />
+          <button>
+            <i class="fas fa-search"></i>
+          </button>
+        </div>
+        <button
+          class="border border-Blue-De-France py-4 px-8 ml-4 max-[480px]:ml-0 max-[480px]:mr-4"
+        >
+          Login
+        </button>
+      </div>
+    </header>
+    <main>
+      <section
+        class="banner bg-banner bg- bg-cover bg-no-repeat pb-8 pt-[56px] px-[9.5rem] max-[768px]:px-8"
+      >
+        <h1 class="font-bold text-3xl mt-28">Junio Promocional</h1>
+        <p class="font-semibold py-4">
+          Productos seleccionados con 33% de descuento
+        </p>
+        <button class="bg-Blue-De-France text-white py-4 px-8">
+          Ver Electronics
+        </button>
+      </section>
+      <section
+        class="section-category px-[9.5rem] pt-16 font-raleway max-[768px]:px-8 max-[480px]:px-4"
+      >
+        <div class="card-title flex justify-between pb-4">
+          <h2 class="text-Wood-Charcoal font-semibold text-xl">Electronics</h2>
+          <a
+            class="text-Blue-De-France flex gap-2 items-center font-semibold"
+            href="#"
+          >
+            Ver todo
+            <i class="fa-solid fa-arrow-right"></i>
+          </a>
+        </div>
+        <div
+          class="card-container flex gap-4 overflow-hidden max-[480px]:flex-wrap"
+        >
+          <div class="card flex flex-col gap-1">
+            <img
+              src="./src/images/control-xbox.jpg"
+              alt="Mando inalambrico Xbox"
+              class="w-[150px]"
+            />
+            <p class="text-Wood-Charcoal text-xs">Mando inalambrico Xbox</p>
+            <span class="text-Wood-Charcoal font-semibold text-sm"
+              >$2873.00</span
+            >
+            <a href="#" class="text-Blue-De-France font-semibold text-sm"
+              >Ver producto</a
+            >
+          </div>
+          <div class="card flex flex-col gap-1">
+            <img
+              src="./src/images/control-xbox.jpg"
+              alt="Mando inalambrico Xbox"
+              class="w-[150px]"
+            />
+            <p class="text-Wood-Charcoal text-xs">Mando inalambrico Xbox</p>
+            <span class="text-Wood-Charcoal font-semibold text-sm"
+              >$2873.00</span
+            >
+            <a href="#" class="text-Blue-De-France font-semibold text-sm"
+              >Ver producto</a
+            >
+          </div>
+          <div class="card flex flex-col gap-1">
+            <img
+              src="./src/images/control-xbox.jpg"
+              alt="Mando inalambrico Xbox"
+              class="w-[150px]"
+            />
+            <p class="text-Wood-Charcoal text-xs">Mando inalambrico Xbox</p>
+            <span class="text-Wood-Charcoal font-semibold text-sm"
+              >$2873.00</span
+            >
+            <a href="#" class="text-Blue-De-France font-semibold text-sm"
+              >Ver producto</a
+            >
+          </div>
+          <div class="card flex flex-col gap-1">
+            <img
+              src="./src/images/control-xbox.jpg"
+              alt="Mando inalambrico Xbox"
+              class="w-[150px]"
+            />
+            <p class="text-Wood-Charcoal text-xs">Mando inalambrico Xbox</p>
+            <span class="text-Wood-Charcoal font-semibold text-sm"
+              >$2873.00</span
+            >
+            <a href="#" class="text-Blue-De-France font-semibold text-sm"
+              >Ver producto</a
+            >
+          </div>
+          <div class="card flex flex-col gap-1">
+            <img
+              src="./src/images/control-xbox.jpg"
+              alt="Mando inalambrico Xbox"
+              class="w-[150px]"
+            />
+            <p class="text-Wood-Charcoal text-xs">Mando inalambrico Xbox</p>
+            <span class="text-Wood-Charcoal font-semibold text-sm"
+              >$2873.00</span
+            >
+            <a href="#" class="text-Blue-De-France font-semibold text-sm"
+              >Ver producto</a
+            >
+          </div>
+        </div>
+      </section>
+      <section
+        class="section-category px-[9.5rem] pt-16 font-raleway max-[768px]:px-8 max-[480px]:px-4"
+      >
+        <div class="card-title flex justify-between pb-4">
+          <h2 class="text-Wood-Charcoal font-semibold text-xl">Clothes</h2>
+          <a
+            class="text-Blue-De-France flex gap-2 items-center font-semibold"
+            href="#"
+          >
+            Ver todo
+            <i class="fa-solid fa-arrow-right"></i>
+          </a>
+        </div>
+        <div class="card-container flex gap-4 max-[480px]:flex-wrap">
+          <div class="card flex flex-col gap-1">
+            <img
+              src="./src/images/control-xbox.jpg"
+              alt="Mando inalambrico Xbox"
+              class="w-[150px]"
+            />
+            <p class="text-Wood-Charcoal text-xs">Mando inalambrico Xbox</p>
+            <span class="text-Wood-Charcoal font-semibold text-sm"
+              >$2873.00</span
+            >
+            <a href="#" class="text-Blue-De-France font-semibold text-sm"
+              >Ver producto</a
+            >
+          </div>
+          <div class="card flex flex-col gap-1">
+            <img
+              src="./src/images/control-xbox.jpg"
+              alt="Mando inalambrico Xbox"
+              class="w-[150px]"
+            />
+            <p class="text-Wood-Charcoal text-xs">Mando inalambrico Xbox</p>
+            <span class="text-Wood-Charcoal font-semibold text-sm"
+              >$2873.00</span
+            >
+            <a href="#" class="text-Blue-De-France font-semibold text-sm"
+              >Ver producto</a
+            >
+          </div>
+          <div class="card flex flex-col gap-1">
+            <img
+              src="./src/images/control-xbox.jpg"
+              alt="Mando inalambrico Xbox"
+              class="w-[150px]"
+            />
+            <p class="text-Wood-Charcoal text-xs">Mando inalambrico Xbox</p>
+            <span class="text-Wood-Charcoal font-semibold text-sm"
+              >$2873.00</span
+            >
+            <a href="#" class="text-Blue-De-France font-semibold text-sm"
+              >Ver producto</a
+            >
+          </div>
+          <div class="card flex flex-col gap-1">
+            <img
+              src="./src/images/control-xbox.jpg"
+              alt="Mando inalambrico Xbox"
+              class="w-[150px]"
+            />
+            <p class="text-Wood-Charcoal text-xs">Mando inalambrico Xbox</p>
+            <span class="text-Wood-Charcoal font-semibold text-sm"
+              >$2873.00</span
+            >
+            <a href="#" class="text-Blue-De-France font-semibold text-sm"
+              >Ver producto</a
+            >
+          </div>
+          <div class="card flex flex-col gap-1">
+            <img
+              src="./src/images/control-xbox.jpg"
+              alt="Mando inalambrico Xbox"
+              class="w-[150px]"
+            />
+            <p class="text-Wood-Charcoal text-xs">Mando inalambrico Xbox</p>
+            <span class="text-Wood-Charcoal font-semibold text-sm"
+              >$2873.00</span
+            >
+            <a href="#" class="text-Blue-De-France font-semibold text-sm"
+              >Ver producto</a
+            >
+          </div>
+        </div>
+      </section>
+      <section
+        class="section-category px-[9.5rem] pt-16 font-raleway max-[768px]:px-8 max-[480px]:px-4"
+      >
+        <div class="card-title flex justify-between pb-4">
+          <h2 class="text-Wood-Charcoal font-semibold text-xl">Shoes</h2>
+          <a
+            class="text-Blue-De-France flex gap-2 items-center font-semibold"
+            href="#"
+          >
+            Ver todo
+            <i class="fa-solid fa-arrow-right"></i>
+          </a>
+        </div>
+        <div class="card-container flex gap-4 max-[480px]:flex-wrap">
+          <div class="card flex flex-col gap-1">
+            <img
+              src="./src/images/control-xbox.jpg"
+              alt="Mando inalambrico Xbox"
+              class="w-[150px]"
+            />
+            <p class="text-Wood-Charcoal text-xs">Mando inalambrico Xbox</p>
+            <span class="text-Wood-Charcoal font-semibold text-sm"
+              >$2873.00</span
+            >
+            <a href="#" class="text-Blue-De-France font-semibold text-sm"
+              >Ver producto</a
+            >
+          </div>
+          <div class="card flex flex-col gap-1">
+            <img
+              src="./src/images/control-xbox.jpg"
+              alt="Mando inalambrico Xbox"
+              class="w-[150px]"
+            />
+            <p class="text-Wood-Charcoal text-xs">Mando inalambrico Xbox</p>
+            <span class="text-Wood-Charcoal font-semibold text-sm"
+              >$2873.00</span
+            >
+            <a href="#" class="text-Blue-De-France font-semibold text-sm"
+              >Ver producto</a
+            >
+          </div>
+          <div class="card flex flex-col gap-1">
+            <img
+              src="./src/images/control-xbox.jpg"
+              alt="Mando inalambrico Xbox"
+              class="w-[150px]"
+            />
+            <p class="text-Wood-Charcoal text-xs">Mando inalambrico Xbox</p>
+            <span class="text-Wood-Charcoal font-semibold text-sm"
+              >$2873.00</span
+            >
+            <a href="#" class="text-Blue-De-France font-semibold text-sm"
+              >Ver producto</a
+            >
+          </div>
+          <div class="card flex flex-col gap-1">
+            <img
+              src="./src/images/control-xbox.jpg"
+              alt="Mando inalambrico Xbox"
+              class="w-[150px]"
+            />
+            <p class="text-Wood-Charcoal text-xs">Mando inalambrico Xbox</p>
+            <span class="text-Wood-Charcoal font-semibold text-sm"
+              >$2873.00</span
+            >
+            <a href="#" class="text-Blue-De-France font-semibold text-sm"
+              >Ver producto</a
+            >
+          </div>
+          <div class="card flex flex-col gap-1">
+            <img
+              src="./src/images/control-xbox.jpg"
+              alt="Mando inalambrico Xbox"
+              class="w-[150px]"
+            />
+            <p class="text-Wood-Charcoal text-xs">Mando inalambrico Xbox</p>
+            <span class="text-Wood-Charcoal font-semibold text-sm"
+              >$2873.00</span
+            >
+            <a href="#" class="text-Blue-De-France font-semibold text-sm"
+              >Ver producto</a
+            >
+          </div>
+        </div>
+      </section>
+      <section
+        class="about-us py-16 px-[9.5rem] flex gap-[7rem] justify-around max-[768px]:justify-between max-[768px]:px-8 max-[480px]:flex-col max-[480px]:items-center max-[480px]:gap-4"
+      >
+        <div
+          class="flex w-full items-start max-[768px]:flex-col max-[768px]:gap-4 max-[480px]:items-center"
+        >
+          <div
+            class="flex items-center mr-[7rem] max-[480px]:justify-center max-[480px]:mr-0"
+          >
+            <a href="#" class="flex items-center">
+              <img
+                class="w-10 h-10"
+                src="./src/images/shopping-cart.png"
+                alt="logo OnlineShoping from flaticon"
+              />
+              <p class="font-raleway">
+                <span class="text-Blue-De-France font-bold">Online</span>Shoping
+              </p>
+            </a>
+          </div>
+          <ul class="flex flex-col gap-2 text-sm max-[480px]:items-center">
+            <li><a href="">Quienes somos</a></li>
+            <li><a href="">Política de privacidad</a></li>
+            <li><a href="">Programa de fidelidad</a></li>
+            <li><a href="">Nuestras Tiendas</a></li>
+            <li><a href="">Quiero ser franquiciado</a></li>
+            <li><a href="">Anúncie aquí</a></li>
+          </ul>
+        </div>
+        <form
+          class="flex flex-col w-[32rem] max-[768px]:w-[27rem] max-[480px]:w-[300px]"
+        >
+          <h3 class="text-Wood-Charcoal font-semibold text-sm mb-2">
+            Hable con nosotros
+          </h3>
+          <label for="" class="text-xs text-Grey-of-darkness">Nombre</label>
+          <input
+            type="text"
+            class="outline-none border-b border-Grey-of-darkness w-full hover:border-Blue-De-France"
+          />
+          <div class="flex flex-col">
+            <label for="form-message" class="text-xs text-Grey-of-darkness"
+              >Escribe tu mensaje</label
+            >
+            <textarea
+              name="form-message"
+              id=""
+              cols="30"
+              rows="2"
+              class="text-xs resize-none border-b border-Grey-of-darkness outline-none hover:border-Blue-De-France"
+            ></textarea>
+          </div>
+          <button type="submit" class="bg-Blue-De-France text-white p-4 mt-2">
+            Enviar mensaje
+          </button>
+        </form>
+      </section>
+    </main>
+    <footer
+      class="flex flex-col justify-center items-center text-sm text-Wood-Charcoal py-4"
+    >
+      <span>Desarrollado por Cristina Garcia Reyes</span>
+      <span>2023</span>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="./src/images/icono-car.jpg" />
+    <!-- Tailwind -->
+    <link href="./dist/output.css" rel="stylesheet" />
+    <!-- Font Awesome  -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <title>Log In</title>
+  </head>
+  <body>
+    <header
+      class="py-8 px-[9.5rem] flex gap-8 justify-start box-border max-[768px]:px-8 items-center"
+    >
+      <div class="flex w-52 justify-start">
+        <a href="#" class="flex justify-center items-center">
+          <img
+            class="w-10 h-10"
+            src="./src/images/shopping-cart.png"
+            alt="logo OnlineShoping from flaticon"
+          />
+          <p class="font-raleway">
+            <span class="text-Blue-De-France font-bold">Online</span>Shoping
+          </p>
+        </a>
+      </div>
+      <div
+        class="flex w-full justify-between max-[480px]:flex-row-reverse max-[480px]:gap-2"
+      >
+        <div class="flex items-center">
+          <input
+            type="search"
+            name="search"
+            id="search"
+            class="input-search outline-none mr-20 max-[480px]:hidden"
+            placeholder="¿Qué deseas buscar?"
+          />
+          <button>
+            <i class="fas fa-search"></i>
+          </button>
+        </div>
+      </div>
+    </header>
+    <main class="px-[9.5rem] max-[768px]:px-8 max-[480px]:px-4">
+      <section class="form-login flex items-center justify-center w-full">
+        <form
+          class="flex flex-col w-[32rem] max-[768px]:w-[27rem] max-[480px]:w-[300px]"
+        >
+          <h3 class="text-Wood-Charcoal font-semibold text-sm mb-2">
+            Hable con nosotros
+          </h3>
+          <label for="" class="text-xs text-Grey-of-darkness">Nombre</label>
+          <input
+            type="text"
+            class="outline-none border-b border-Grey-of-darkness w-full hover:border-Blue-De-France"
+          />
+          <div class="flex flex-col">
+            <label for="form-message" class="text-xs text-Grey-of-darkness"
+              >Escribe tu mensaje</label
+            >
+            <textarea
+              name="form-message"
+              id=""
+              cols="30"
+              rows="2"
+              class="text-xs resize-none border-b border-Grey-of-darkness outline-none hover:border-Blue-De-France"
+            ></textarea>
+          </div>
+          <button type="submit" class="bg-Blue-De-France text-white p-4 mt-2">
+            Enviar mensaje
+          </button>
+        </form>
+      </section>
+      <section
+        class="about-us py-16 flex gap-[7rem] justify-around max-[768px]:justify-between max-[480px]:flex-col max-[480px]:items-center max-[480px]:gap-4"
+      >
+        <div
+          class="flex w-full items-start max-[768px]:flex-col max-[768px]:gap-4 max-[480px]:items-center"
+        >
+          <div
+            class="flex items-center mr-[7rem] max-[480px]:justify-center max-[480px]:mr-0"
+          >
+            <a href="#" class="flex items-center">
+              <img
+                class="w-10 h-10"
+                src="./src/images/shopping-cart.png"
+                alt="logo OnlineShoping from flaticon"
+              />
+              <p class="font-raleway">
+                <span class="text-Blue-De-France font-bold">Online</span>Shoping
+              </p>
+            </a>
+          </div>
+          <ul class="flex flex-col gap-2 text-sm max-[480px]:items-center">
+            <li><a href="">Quienes somos</a></li>
+            <li><a href="">Política de privacidad</a></li>
+            <li><a href="">Programa de fidelidad</a></li>
+            <li><a href="">Nuestras Tiendas</a></li>
+            <li><a href="">Quiero ser franquiciado</a></li>
+            <li><a href="">Anúncie aquí</a></li>
+          </ul>
+        </div>
+        <form
+          class="flex flex-col w-[32rem] max-[768px]:w-[27rem] max-[480px]:w-[300px]"
+        >
+          <h3 class="text-Wood-Charcoal font-semibold text-sm mb-2 text-center">
+            Iniciar Sesión
+          </h3>
+          <label for="" class="text-xs text-Grey-of-darkness">Nombre</label>
+          <input
+            type="text"
+            class="outline-none border-b border-Grey-of-darkness w-full hover:border-Blue-De-France"
+          />
+          <div class="flex flex-col">
+            <label for="form-message" class="text-xs text-Grey-of-darkness"
+              >Escribe tu mensaje</label
+            >
+            <textarea
+              name="form-message"
+              id=""
+              cols="30"
+              rows="2"
+              class="text-xs resize-none border-b border-Grey-of-darkness outline-none hover:border-Blue-De-France"
+            ></textarea>
+          </div>
+          <button type="submit" class="bg-Blue-De-France text-white p-4 mt-2">
+            Enviar mensaje
+          </button>
+        </form>
+      </section>
+    </main>
+    <footer
+      class="flex flex-col justify-center items-center text-sm text-Wood-Charcoal py-4"
+    >
+      <span>Desarrollado por Cristina Garcia Reyes</span>
+      <span>2023</span>
+    </footer>
+  </body>
+</html>

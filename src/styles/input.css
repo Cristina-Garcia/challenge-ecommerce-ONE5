@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.form-login {
+  padding-block: 92px;
+}
+
+/* py-[92px] max-[768px]:py-[32px] */

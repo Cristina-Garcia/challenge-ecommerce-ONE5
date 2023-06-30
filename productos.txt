@@ -1,0 +1,71 @@
+{
+"producto":[
+{
+"name": "JBL Charge 3";
+"imageURL":"https://i.pinimg.com/564x/1f/a4/48/1fa4480560df44ee89736d4223ed5552.jpg",
+"price": $1500.00
+"id":1
+}
+{
+"name": "JBL Xtreme 2";
+"imageURL":"https://cdn.shopify.com/s/files/1/0487/3532/2266/products/19234-fbeaaf53-81f2-485e-92c3-ef97480c1b1f-None_1200x.png?v=1624530276",
+"price": $5000.00
+"id":2
+}
+{
+"name": "Mando inalambrico Xbox";
+"imageURL":"https://cdn.shopify.com/s/files/1/0487/3532/2266/products/19234-fbeaaf53-81f2-485e-92c3-ef97480c1b1f-None_1200x.png?v=1624530276",
+"description":"Edicion limitada de Gears of War 4 Crimson Omen"
+"price": $2873.00
+"id":3
+}
+{
+"name": "Men Sport Watch";
+"imageURL":"https://i.pinimg.com/564x/51/2a/f3/512af3fe66c576dc61d934291d654583.jpg",
+"price": $985.00
+"id":4
+}
+{
+"name": "INIU Power Bank";
+"imageURL":"https://i.pinimg.com/564x/88/0d/b0/880db03d553573d77fa86ab01e50662e.jpg",
+"description":"El más avanzado PD 3.0 y QC 4+ de tecnologías combinadas para una carga rápida"
+"price": $375.84
+"id":5
+}
+{
+"name": "Fujifilm Instax Mini 9";
+"imageURL":"https://i.pinimg.com/564x/1a/e2/3d/1ae23d1e1582541be8efc3e0f336b25c.jpg",
+"description":"Cámara para selfies incorporada"
+"price": $1173.00
+"id":6
+}
+{
+"name": "Canon EOS 6D Mark II";
+"imageURL":"https://i.pinimg.com/564x/38/d9/57/38d957a1566cfce8db59321967324c98.jpg",
+"description":" Con la velocidad para capturar acción y la versatilidad para crear fotografías fenomenales y videos Full HD"
+"price": $2299.00
+"id":7
+}
+{
+"name": "Samsung  2021 Neo QLED";
+"imageURL":"https://i.pinimg.com/564x/42/5e/e9/425ee9b50948e4370e7e8c63de4ff8b6.jpg",
+"description":" Audio Potencia de audio 70 W Tecnología de sonido Seguimiento de objetos Sound Plus Altavoces 8 Procesamiento de sonido Dol"
+"price": $16659.83
+"id":8
+}
+{
+"name": "Audifonos inalambricos";
+"imageURL":"https://i.pinimg.com/564x/7f/ac/11/7fac114d62c4570a0746fb8195512e6f.jpg",
+"description":"Auriculares inalámbricos con cancelación de ruido Beats Solo Pro "
+"price": $6459.83
+"id":9
+}
+{
+"name": "Audifonos JBL";
+"imageURL":"https://i.pinimg.com/564x/8c/db/e1/8cdbe123010c380e20f264a8fdd57938.jpg",
+"description":"Auriculares inalámbricos con cancelación de ruido Beats Solo Pro "
+"price": $1785.00
+"id":10
+}
+]
+}
