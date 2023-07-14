@@ -522,6 +522,10 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
+.absolute {
+  position: absolute;
+}
+
 .mb-2 {
   margin-bottom: 0.5rem;
 }
@@ -538,12 +542,12 @@ video {
   margin-right: 7rem;
 }
 
-.mt-2 {
-  margin-top: 0.5rem;
-}
-
 .mt-28 {
   margin-top: 7rem;
+}
+
+.mt-4 {
+  margin-top: 1rem;
 }
 
 .flex {
@@ -604,10 +608,6 @@ video {
 
 .justify-around {
   justify-content: space-around;
-}
-
-.gap-1 {
-  gap: 0.25rem;
 }
 
 .gap-2 {
@@ -702,6 +702,10 @@ video {
   padding-bottom: 2rem;
 }
 
+.pl-2 {
+  padding-left: 0.5rem;
+}
+
 .pt-16 {
   padding-top: 4rem;
 }
@@ -767,11 +771,24 @@ video {
   outline-offset: 2px;
 }
 
+.filter {
+  filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
+}
+
 .form-login {
   padding-block: 92px;
 }
 
 /* py-[92px] max-[768px]:py-[32px] */
+
+.card {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+  /* margin-top: 1.5rem; */
+  position: relative;
+  /* flex flex-col gap-1 mt-4 */
+}
 
 .hover\:border-Blue-De-France:hover {
   --tw-border-opacity: 1;

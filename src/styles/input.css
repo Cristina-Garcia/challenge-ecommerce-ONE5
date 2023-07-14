@@ -7,3 +7,12 @@
 }
 
 /* py-[92px] max-[768px]:py-[32px] */
+
+.card {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+  /* margin-top: 1.5rem; */
+  position: relative;
+  /* flex flex-col gap-1 mt-4 */
+}

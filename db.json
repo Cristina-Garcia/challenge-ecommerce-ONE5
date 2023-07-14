@@ -1,22 +1,24 @@
 {
-  "producto": [
+  "productos": [
     {
       "name": "JBL Charge 3",
       "imageURL": "https://i.pinimg.com/564x/1f/a4/48/1fa4480560df44ee89736d4223ed5552.jpg",
       "price": "$1500.00",
+      "description": "JBL Charge 3 Altavoz portatil Bluetooth impermeable",
       "category": "electronics",
       "id": 1
     },
     {
-      "name": "JBL Xtreme 2",
-      "imageURL": "https://cdn.shopify.com/s/files/1/0487/3532/2266/products/19234-fbeaaf53-81f2-485e-92c3-ef97480c1b1f-None_1200x.png?v=1624530276",
+      "name": "JBL Tune 125TWS",
+      "imageURL": "https://m.media-amazon.com/images/I/5195SgQ35OL._AC_SL1500_.jpg",
+      "description": "Audífonos Inalámbricos Bluetooth-Blanco",
       "category": "electronics",
-      "price": "$5000.00",
+      "price": "$1677.00",
       "id": 2
     },
     {
       "name": "Mando inalambrico Xbox",
-      "imageURL": "https://cdn.shopify.com/s/files/1/0487/3532/2266/products/19234-fbeaaf53-81f2-485e-92c3-ef97480c1b1f-None_1200x.png?v=1624530276",
+      "imageURL": "https://m.media-amazon.com/images/I/61V-wZhgRQL._AC_SL1200_.jpg",
       "description": "Edicion limitada de Gears of War 4 Crimson Omen",
       "category": "electronics",
       "price": "$2873.00",
@@ -25,6 +27,7 @@
     {
       "name": "Men Sport Watch",
       "imageURL": "https://i.pinimg.com/564x/51/2a/f3/512af3fe66c576dc61d934291d654583.jpg",
+      "description": "PTHTECHUS Startwatch",
       "category": "electronics",
       "price": "$985.00",
       "id": 4
@@ -38,11 +41,11 @@
       "id": 5
     },
     {
-      "name": "Fujifilm Instax Mini 9",
-      "imageURL": "https://i.pinimg.com/564x/1a/e2/3d/1ae23d1e1582541be8efc3e0f336b25c.jpg",
+      "name": "Fujifilm Instax Mini 12",
+      "imageURL": "https://www.instax.com.mx/cdn/shop/products/203468a_1024x1024.jpg?v=1680305984",
       "description": "Cámara para selfies incorporada",
       "category": "electronics",
-      "price": "$1173.00",
+      "price": "$2399.00",
       "id": 6
     },
     {
@@ -111,10 +114,10 @@
     },
     {
       "name": "Jogger",
-      "imageURL": "https://i.pinimg.com/564x/e3/ae/a2/e3aea2ff4d5de7c09e57f34f4f8bdcc5.jpg",
-      "description": "Joggers cargo con cordon en la cintura, 95% algodón",
+      "imageURL": "https://ss251.liverpool.com.mx/lg/1123444911.jpg",
+      "description": "Joggers slim cargo con cordon en la cintura, 95% algodón",
       "category": "clothes",
-      "price": "$665.95",
+      "price": "$400.00",
       "id": 15
     },
     {
@@ -143,10 +146,10 @@
     },
     {
       "name": "Converse Chuck",
-      "imageURL": "https://i.pinimg.com/564x/cd/14/74/cd1474b31193d956ea19db2a94175a3b.jpg",
-      "description": "Zapatillas altas Chuck 70 de Converse",
+      "imageURL": "https://m.media-amazon.com/images/I/51XTUgNoAIL._AC_SY695_.jpg",
+      "description": "Zapatillas altas Taylor All Star",
       "category": "shoes",
-      "price": "$1075.00",
+      "price": "$3406.00",
       "id": 19
     },
     {
@@ -190,35 +193,35 @@
       "id": 24
     },
     {
-      "name": "Bloqueador solar",
-      "imageURL": "https://m.media-amazon.com/images/I/61HHcrSDxcL._AC_SL1500_.jpg",
-      "description": "Nivea sun protector solar facial control de brillo tono medio",
+      "name": "Fotoprotector",
+      "imageURL": "https://m.media-amazon.com/images/I/51KsGOihV8L._AC_SL1000_.jpg",
+      "description": "ISDIN Fotoprotector FusionWater con color, 50ml",
       "category": "Cosmetics",
       "price": "$370.00",
       "id": 25
     },
     {
       "name": "Gel purificante",
-      "imageURL": "https://m.media-amazon.com/images/I/6193xRlo0JL._AC_SL1500_.jpg",
+      "imageURL": "https://www.laroche-posay.com.mx/-/media/project/loreal/brand-sites/lrp/america/latam/products/effaclar/effaclar-cleansing-foaming-gel/effaclargelmoussantpurifiantflaconrgb-v2.png",
       "description": "La Roche Posay Effaclar facial para piel grasa",
       "category": "cosmetics",
-      "price": "$495.00",
+      "price": "$392.00",
       "id": 26
     },
     {
       "name": "Labial Revlon",
-      "imageURL": "https://m.media-amazon.com/images/I/710l04xQGJL._AC_SL1500_.jpg",
-      "description": "Labial liquido colorstay satin ink",
+      "imageURL": "https://resources.sears.com.mx/medios-plazavip/fotos/productos_sears1/original/3273655.jpg?scale=550",
+      "description": "Revlon Ultra HD matte lipcolor",
       "category": "cosmetics",
       "price": "$127.00",
       "id": 27
     },
     {
       "name": "Gel para ceja",
-      "imageURL": "https://m.media-amazon.com/images/I/41xqAfB2dZL._AC_SL1200_.jpg",
-      "description": "Pink Up, Organic Brows para peinar la ceja.",
+      "imageURL": "https://m.media-amazon.com/images/I/517mbD61cGL._AC_SL1200_.jpg",
+      "description": "Pink Up, Caffeine Eye Gel, contorno de ojos en gel",
       "category": "Cosmetics",
-      "price": "$108.00",
+      "price": "$170.00",
       "id": 28
     },
     {
@@ -227,15 +230,15 @@
       "description": "Juego de utensilios de cocina de espátulas, cucharones, pinzas de cocina y medidores de madera",
       "category": "Hogar",
       "price": "$649.00",
-      "id": 28
+      "id": 29
     },
     {
       "name": "Cómoda De 5 Cajones",
-      "imageURL": "https://m.media-amazon.com/images/I/51lHI6tBqsL._AC_SL1200_.jpg",
+      "imageURL": "https://zenithw.com.mx/cdn/shop/products/5L-608-6_2048x2048.jpg?v=1686251035",
       "description": "Almacenamiento para hogar y oficina",
       "category": "Hogar",
       "price": "$1899.00",
-      "id": 28
+      "id": 30
     },
     {
       "name": "Kit de limpieza",
@@ -243,7 +246,7 @@
       "description": "Kit limpieza completo de casa, inlcuye colgador",
       "category": "Hogar",
       "price": "$929.00",
-      "id": 29
+      "id": 31
     },
     {
       "name": "Toallas de baño ",
@@ -251,7 +254,7 @@
       "description": "Toallas de baño marrones de alta calidad",
       "category": "Hogar",
       "price": "$388.00",
-      "id": 30
+      "id": 32
     },
     {
       "name": "Luces colgantes",
@@ -259,7 +262,15 @@
       "description": "Lámpara de ratán con cuerda de cáñamo ajustable",
       "category": "Hogar",
       "price": "$899.00",
-      "id": 31
+      "id": 33
+    },
+    {
+      "name": "El prinicpito",
+      "imageURL": "https://m.media-amazon.com/images/I/41ZHzrJEOOS._SX325_BO1,204,203,200_.jpg",
+      "description": "Pasta blanda. Edicion unica completa",
+      "category": "Libros",
+      "price": "$119.00",
+      "id": "c50ab844-094d-422c-974e-24a67ed2a6fc"
     }
   ]
 }

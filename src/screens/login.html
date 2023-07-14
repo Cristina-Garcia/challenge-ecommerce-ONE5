@@ -6,24 +6,23 @@
     <!-- Favicon -->
     <link rel="icon" type="image/x-icon" href="./src/images/icono-car.jpg" />
     <!-- Tailwind -->
-    <link href="./dist/output.css" rel="stylesheet" />
+    <link href="../../dist/output.css" rel="stylesheet" />
     <!-- Font Awesome  -->
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
     />
-
-    <title>Productos</title>
+    <title>Log In</title>
   </head>
   <body>
     <header
       class="py-8 px-[9.5rem] flex gap-8 justify-start box-border max-[768px]:px-8 items-center"
     >
       <div class="flex w-52 justify-start">
-        <a href="./index.html" class="flex justify-center items-center">
+        <a href="../../index.html" class="flex justify-center items-center">
           <img
             class="w-10 h-10"
-            src="./src/images/shopping-cart.png"
+            src="../images/shopping-cart.png"
             alt="logo OnlineShoping from flaticon"
           />
           <p class="font-raleway">
@@ -48,39 +47,48 @@
         </div>
       </div>
     </header>
-    <main class="px-[9.5rem]">
-      <section>
-        <div class="container-head flex justify-between items-center">
-          <h2 class="font-bold text-Wood-Charcoal text-3xl">
-            Todos los productos
-          </h2>
-          <button class="bg-Blue-De-France text-white p-4 mt-2">
-            <a href="">Agregar producto</a>
-          </button>
-        </div>
-        <div class="container-cards flex">
-          <div class="card flex flex-col gap-1" style="position: relative">
-            <div class="card-container flex flex-col">
-              <img
-                src="./src/images/converse-chuck.jpg"
-                alt="Converse Chuck"
-                class="w-[150px]"
-              />
-              <p class="text-Wood-Charcoal text-xs">Converse Chuck</p>
-              <span class="text-Wood-Charcoal font-semibold text-sm"
-                >$1075.00</span
-              >
-              <span class="font-raleway text-Wood-Charcoal text-xs">#19</span>
-            </div>
-            <div
-              class="flex gap-4 text-Blue-De-France"
-              style="position: absolute; top: 0; right: 0"
+    <main class="px-[9.5rem] max-[768px]:px-8 max-[480px]:px-4">
+      <section class="form-login flex items-center justify-center w-full">
+        <form
+          class="flex flex-col w-[32rem] max-[768px]:w-[27rem] max-[480px]:w-[300px]"
+          data-form
+        >
+          <h3
+            class="text-Wood-Charcoal font-semibold text-sm mb-8"
+            style="text-align: center"
+          >
+            Iniciar Sesión
+          </h3>
+          <div class="flex flex-col">
+            <label for="" class="text-xs text-Grey-of-darkness pl-2"
+              >Escriba su nombre</label
             >
-              <i class="fa-solid fa-trash"></i>
-              <i class="fa-solid fa-pen"></i>
-            </div>
+            <input
+              type="text"
+              class="outline-none border-b border-Grey-of-darkness pl-2 w-full hover:border-Blue-De-France"
+              required
+              data-user
+            />
           </div>
-        </div>
+          <div class="flex flex-col" style="margin-top: 1rem">
+            <label for="form-message" class="text-xs pl-2 text-Grey-of-darkness"
+              >Escriba su contraseña</label
+            >
+            <input
+              type="password"
+              class="border-b border-Grey-of-darkness pl-2 outline-none hover:border-Blue-De-France"
+              required
+              data-password
+            />
+          </div>
+          <button
+            type="submit"
+            class="bg-Blue-De-France text-white p-4"
+            style="margin-top: 1.5rem"
+          >
+            Entrar
+          </button>
+        </form>
       </section>
       <section
         class="about-us py-16 flex gap-[7rem] justify-around max-[768px]:justify-between max-[480px]:flex-col max-[480px]:items-center max-[480px]:gap-4"
@@ -94,7 +102,7 @@
             <a href="#" class="flex items-center">
               <img
                 class="w-10 h-10"
-                src="./src/images/shopping-cart.png"
+                src="../images/shopping-cart.png"
                 alt="logo OnlineShoping from flaticon"
               />
               <p class="font-raleway">
@@ -117,24 +125,28 @@
           <h3 class="text-Wood-Charcoal font-semibold text-sm mb-2">
             Hable con nosotros
           </h3>
-          <label for="" class="text-xs text-Grey-of-darkness">Nombre</label>
+          <label for="" class="text-xs text-Grey-of-darkness pl-2"
+            >Nombre</label
+          >
           <input
             type="text"
-            class="outline-none border-b border-Grey-of-darkness w-full hover:border-Blue-De-France"
+            class="outline-none border-b border-Grey-of-darkness pl-2 w-full hover:border-Blue-De-France"
           />
-          <div class="flex flex-col">
-            <label for="form-message" class="text-xs text-Grey-of-darkness"
+          <div class="flex flex-col" style="margin-top: 1rem">
+            <label for="form-message" class="text-xs text-Grey-of-darkness pl-2"
               >Escribe tu mensaje</label
             >
             <textarea
               name="form-message"
               id=""
-              cols="30"
-              rows="2"
-              class="text-xs resize-none border-b border-Grey-of-darkness outline-none hover:border-Blue-De-France"
+              class="w-full text-xs resize-none border-b border-Grey-of-darkness pl-2 outline-none hover:border-Blue-De-France"
             ></textarea>
           </div>
-          <button type="submit" class="bg-Blue-De-France text-white p-4 mt-2">
+          <button
+            type="submit"
+            class="bg-Blue-De-France text-white p-4"
+            style="margin-top: 1.5rem"
+          >
             Enviar mensaje
           </button>
         </form>
@@ -146,5 +158,7 @@
       <span>Desarrollado por Cristina Garcia Reyes</span>
       <span>2023</span>
     </footer>
+    <script type="module" src="../js/register.js"></script>
+    <!-- <script type="module" src="../js/products.js"></script> -->
   </body>
 </html>
