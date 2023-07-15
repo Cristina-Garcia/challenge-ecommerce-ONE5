@@ -779,15 +779,35 @@ video {
   padding-block: 92px;
 }
 
-/* py-[92px] max-[768px]:py-[32px] */
-
 .card {
   display: flex;
   flex-direction: column;
   gap: 0.25rem;
-  /* margin-top: 1.5rem; */
   position: relative;
-  /* flex flex-col gap-1 mt-4 */
+}
+
+.modal {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.8);
+  position: fixed;
+  top: 0;
+  left: 0;
+  transition: all 0.5s;
+  z-index: 1;
+}
+
+.modal-icon-added {
+  width: 3rem;
+  height: 3rem;
+  background-image: url('../images/checkmark.svg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-bottom: 1rem;
 }
 
 .hover\:border-Blue-De-France:hover {

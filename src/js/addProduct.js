@@ -14,5 +14,13 @@ formAdd.addEventListener('submit', (event) => {
     .createProduct(nameProduct, imageURL, description, category, price)
     .then((respuesta) => {
       console.log('agregado')
+      const modal = document.querySelector('.modal')
+      modal.style.display = 'flex'
+      window.addEventListener('click', (event) => {
+        if (event.target == modal) {
+          modal.style.display = 'none'
+        }
+      })
     })
+    .catch((err) => err)
 })
