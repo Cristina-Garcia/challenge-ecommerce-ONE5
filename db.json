@@ -188,7 +188,7 @@
       "name": "Teia bloqueador solar",
       "imageURL": "https://m.media-amazon.com/images/I/51Qu6p7mRAL._AC_SL1080_.jpg",
       "description": "Protector solar en polvo 30FPS 100% mineral",
-      "category": "Cosmetics",
+      "category": "cosmetics",
       "price": "$370.00",
       "id": 24
     },
@@ -220,15 +220,15 @@
       "name": "Gel para ceja",
       "imageURL": "https://m.media-amazon.com/images/I/517mbD61cGL._AC_SL1200_.jpg",
       "description": "Pink Up, Caffeine Eye Gel, contorno de ojos en gel",
-      "category": "Cosmetics",
+      "category": "cosmetics",
       "price": "$170.00",
       "id": 28
     },
     {
-      "name": "U Chef utensilios de cocina",
+      "name": "Utensilios de cocina",
       "imageURL": "https://m.media-amazon.com/images/I/614y7owaWtS._AC_SL1200_.jpg",
       "description": "Juego de utensilios de cocina de espátulas, cucharones, pinzas de cocina y medidores de madera",
-      "category": "Hogar",
+      "category": "hogar",
       "price": "$649.00",
       "id": 29
     },
@@ -244,7 +244,7 @@
       "name": "Kit de limpieza",
       "imageURL": "https://m.media-amazon.com/images/I/614ioIOyzyL._AC_SL1096_.jpg",
       "description": "Kit limpieza completo de casa, inlcuye colgador",
-      "category": "Hogar",
+      "category": "hogar",
       "price": "$929.00",
       "id": 31
     },
@@ -252,7 +252,7 @@
       "name": "Toallas de baño ",
       "imageURL": "https://m.media-amazon.com/images/I/91qdC9X1gPL._AC_SL1500_.jpg",
       "description": "Toallas de baño marrones de alta calidad",
-      "category": "Hogar",
+      "category": "hogar",
       "price": "$388.00",
       "id": 32
     },
@@ -260,7 +260,7 @@
       "name": "Luces colgantes",
       "imageURL": "https://m.media-amazon.com/images/I/71vvScma1dL._AC_SL1500_.jpg",
       "description": "Lámpara de ratán con cuerda de cáñamo ajustable",
-      "category": "Hogar",
+      "category": "hogar",
       "price": "$899.00",
       "id": 33
     },
@@ -268,15 +268,15 @@
       "name": "El principito",
       "imageURL": "https://m.media-amazon.com/images/I/41ZHzrJEOOS._SX325_BO1,204,203,200_.jpg",
       "description": "Pasta blanda. Edicion unica completa",
-      "category": "Libros",
+      "category": "libros",
       "price": "$119.00",
       "id": "c50ab844-094d-422c-974e-24a67ed2a6fc"
     },
     {
-      "name": "AstroAI Inflador de Llantas Digital Automatico",
+      "name": "Inflador de Llantas Digital Automatico",
       "imageURL": "https://m.media-amazon.com/images/I/71f6rIJ6EWL._AC_SL1500_.jpg",
-      "description": "Compresor de Aire Portatil para Auto 12V con Bomba Electrico con Pantalla LCD, Luz LED, Kit de Adaptadores y Fusible AMARILLO",
-      "category": "Automotriz",
+      "description": "Compresor de Aire Portatil para Auto 12V con Bomba Electrico con Pantalla LCD, Luz LED, Kit de Adaptadores y Fusible Amarillo",
+      "category": "automotriz",
       "price": "$559.00",
       "id": "18da0fa1-c072-4c89-90fb-5df357e7c29f"
     },

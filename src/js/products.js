@@ -7,15 +7,18 @@ const createNewProduct = (name, imageURL, price, id) => {
   const contentCard = `
       <div class=" flex flex-col">
         <img src="${imageURL}" alt="${name}" class="w-[150px]"/>
+        <div class="flex flex-col">
         <p class="text-Wood-Charcoal text-xs mt-4">${name}</p>
         <span class="text-Wood-Charcoal font-semibold text-sm">${price}</span>
         <span class="font-raleway text-Wood-Charcoal text-xs">#${id}</span>
+        </div
+        >
       </div>
       <div class="flex gap-4 text-Blue-De-France" style="position: absolute; top: 0; right: 0">
       <button id="${id}">
       <i class="fa-solid fa-trash"></i>
       </button>
-      <a href="">
+      <a href="./editProduct.html?id=${id}">
       <i class="fa-solid fa-pen"></i>
       </a>
       </div>

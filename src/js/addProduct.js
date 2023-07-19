@@ -7,7 +7,7 @@ formAdd.addEventListener('submit', (event) => {
   const nameProduct = document.querySelector('[data-nameProduct]').value
   const imageURL = document.querySelector('[data-url]').value
   const description = document.querySelector('[data-description]').value
-  const category = document.querySelector('[data-category]').value
+  const category = document.querySelector('[data-category]').value.toLowerCase()
   const price = document.querySelector('[data-price]').value
 
   clientServices

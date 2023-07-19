@@ -19,7 +19,7 @@
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;400;700&display=swap"
       rel="stylesheet"
     />
-    <title>Agregar nuevo producto</title>
+    <title>Editar producto</title>
   </head>
   <body class="relative">
     <header
@@ -58,10 +58,10 @@
       <section class="form-login flex items-center justify-center w-full">
         <form
           class="flex flex-col w-[32rem] max-[768px]:w-[27rem] max-[480px]:w-[300px]"
-          data-formAdd
+          data-formEdit
         >
           <h3 class="text-Wood-Charcoal font-semibold text-3xl mb-8 text-start">
-            Agregar nuevo producto
+            Editar producto
           </h3>
           <div class="mt-4">
             <label for="urlForm" class="text-xs text-Grey-of-darkness pl-2"
@@ -69,7 +69,7 @@
             ><input
               id="urlForm"
               type="url"
-              class="outline-none border-b border-Grey-of-darkness pl-2 w-full text-Wood-Charcoal font-normal hover:border-Blue-De-France"
+              class="outline-none border-b border-Grey-of-darkness font-normal pl-2 w-full hover:border-Blue-De-France text-Wood-Charcoal"
               data-url
             />
           </div>
@@ -79,7 +79,7 @@
             ><input
               id="categoryForm"
               type="text"
-              class="outline-none border-b border-Grey-of-darkness pl-2 w-full text-Wood-Charcoal font-normal hover:border-Blue-De-France"
+              class="outline-none border-b border-Grey-of-darkness text-Wood-Charcoal font-normal pl-2 w-full hover:border-Blue-De-France"
               data-category
             />
           </div>
@@ -89,7 +89,7 @@
             ><input
               id="nameForm"
               type="text"
-              class="outline-none border-b border-Grey-of-darkness pl-2 w-full text-Wood-Charcoal font-normal hover:border-Blue-De-France"
+              class="outline-none border-b border-Grey-of-darkness text-Wood-Charcoal font-normal pl-2 w-full hover:border-Blue-De-France"
               data-nameProduct
             />
           </div>
@@ -99,7 +99,7 @@
             ><input
               id="priceForm"
               type="text"
-              class="outline-none border-b border-Grey-of-darkness pl-2 w-full text-Wood-Charcoal font-normal hover:border-Blue-De-France"
+              class="outline-none border-b border-Grey-of-darkness text-Wood-Charcoal font-normal pl-2 w-full hover:border-Blue-De-France"
               data-price
             />
           </div>
@@ -111,7 +111,7 @@
             ><textarea
               name=""
               id="descriptionForm"
-              class="text-xs w-full resize-none border-b border-Grey-of-darkness pl-2 outline-none text-Wood-Charcoal font-normal hover:border-Blue-De-France"
+              class="text-xs w-full resize-none border-b border-Grey-of-darkness text-Wood-Charcoal font-normal pl-2 outline-none hover:border-Blue-De-France"
               data-description
             ></textarea>
           </div>
@@ -120,10 +120,11 @@
             class="bg-Blue-De-France text-white p-4"
             style="margin-top: 1.5rem"
           >
-            Agregar producto
+            Editar producto
           </button>
         </form>
       </section>
+      <div></div>
       <section
         class="about-us py-16 flex gap-[7rem] justify-around max-[768px]:justify-between max-[480px]:flex-col max-[480px]:items-center max-[480px]:gap-4"
       >
@@ -133,7 +134,7 @@
           <div
             class="flex items-center mr-[7rem] max-[480px]:justify-center max-[480px]:mr-0"
           >
-            <a href="#" class="flex items-center">
+            <a href="../../index.html" class="flex items-center">
               <img
                 class="w-10 h-10"
                 src="../images/shopping-cart.png"
@@ -210,6 +211,6 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     ></script>
-    <script type="module" src="../js/addProduct.js"></script>
+    <script type="module" src="../js/edit-product.js"></script>
   </body>
 </html>
