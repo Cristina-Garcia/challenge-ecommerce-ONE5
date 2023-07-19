@@ -1,21 +1,12 @@
 import { clientServices } from './service.js'
 
-console.log('funciona?')
-const createNewProduct = (name, imageURL, price) => {
+const createNewProduct = (name, imageURL, price, id) => {
   const card = document.createElement('div')
   const contentCard = `
-      <img
-              src="${imageURL}"
-              alt="${name}"
-              class="w-[150px]"
-            />
-            <p class="text-Wood-Charcoal text-xs">${name}</p>
-            <span class="text-Wood-Charcoal font-semibold text-sm"
-              >${price}</span
-            >
-            <a href="#" class="text-Blue-De-France font-semibold text-sm"
-              >Ver producto</a
-            >
+      <img src="${imageURL}" alt="${name}" class="w-full "/>
+      <p class="text-Wood-Charcoal text-xs">${name}</p>
+      <span class="text-Wood-Charcoal font-semibold text-sm">${price}</span>
+      <a href="./src/screens/descriptionProduct.html?id=${id}" class="text-Blue-De-France font-semibold text-sm">Ver producto</a>
      `
   card.classList.add('card')
   card.innerHTML = contentCard

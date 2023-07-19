@@ -177,7 +177,7 @@
       "id": 22
     },
     {
-      "name": "sandalias Mayari",
+      "name": "Sandalias Mayari",
       "imageURL": "https://m.media-amazon.com/images/I/71u90pi9KRL._AC_SX695_.jpg",
       "description": "Birkenstock doble hebilla ajustable y planntilla de corcho ",
       "category": "shoes",
@@ -281,44 +281,12 @@
       "id": "18da0fa1-c072-4c89-90fb-5df357e7c29f"
     },
     {
-      "name": "",
-      "imageURL": "",
-      "description": "",
-      "category": "",
-      "price": "",
-      "id": "0e07488f-b684-433a-820e-f88c66d675a1"
-    },
-    {
-      "name": "",
-      "imageURL": "",
-      "description": "",
-      "category": "",
-      "price": "",
-      "id": "0da1c532-5e62-4460-85b1-19e8fbb00801"
-    },
-    {
-      "name": "",
-      "imageURL": "",
-      "description": "",
-      "category": "",
-      "price": "",
-      "id": "df154d86-92e1-4107-892b-9ce45cc5f960"
-    },
-    {
-      "name": "",
-      "imageURL": "",
-      "description": "",
-      "category": "",
-      "price": "",
-      "id": "65f77fa9-f057-4042-a8f8-5e2582b60a1b"
-    },
-    {
-      "name": "",
-      "imageURL": "",
-      "description": "",
-      "category": "",
-      "price": "",
-      "id": "c4d5b92d-b0f5-4ee8-8f88-e8ab493f2395"
+      "name": "Zapatos De Seguridad",
+      "imageURL": "https://http2.mlstatic.com/D_NQ_NP_2X_601135-CBT69587528884_052023-F.webp",
+      "description": "Zapatos De Seguridad Para Prueba De Pinchazos Aislados De 6k",
+      "category": "shoes",
+      "price": "$448.00",
+      "id": "799472a7-5c7a-43b5-942b-040ee923bf9a"
     }
   ]
 }

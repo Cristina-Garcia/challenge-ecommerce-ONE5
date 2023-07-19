@@ -5,7 +5,7 @@ import { clientServices } from './service.js'
 const createNewProduct = (name, imageURL, price, id) => {
   const card = document.createElement('div')
   const contentCard = `
-      <div class="card-container flex flex-col">
+      <div class=" flex flex-col">
         <img src="${imageURL}" alt="${name}" class="w-[150px]"/>
         <p class="text-Wood-Charcoal text-xs mt-4">${name}</p>
         <span class="text-Wood-Charcoal font-semibold text-sm">${price}</span>
@@ -20,7 +20,7 @@ const createNewProduct = (name, imageURL, price, id) => {
       </a>
       </div>
      `
-  card.classList.add('card')
+  card.classList.add('card', 'card-products')
   card.innerHTML = contentCard
   const btnDelete = card.querySelector('button')
   btnDelete.addEventListener('click', () => {
