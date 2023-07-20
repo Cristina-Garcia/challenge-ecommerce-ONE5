@@ -1,4 +1,7 @@
 import { clientServices } from './service.js'
+import { validateForm } from './validate-form.js'
+
+validateForm()
 
 const formEdit = document.querySelector('[data-formEdit]')
 const getInformation = async () => {

@@ -1,4 +1,7 @@
 import { clientServices } from './service.js'
+import { validateForm } from './validate-form.js'
+
+validateForm()
 
 const formAdd = document.querySelector('[data-formAdd]')
 

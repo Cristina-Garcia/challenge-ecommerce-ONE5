@@ -287,6 +287,14 @@
       "category": "shoes",
       "price": "$448.00",
       "id": "799472a7-5c7a-43b5-942b-040ee923bf9a"
+    },
+    {
+      "name": "Microsoft Xbox Series S 512GB Standard color blanco",
+      "imageURL": "https://http2.mlstatic.com/D_NQ_NP_2X_641295-MLA69573719686_052023-F.webp",
+      "description": "Incluye control. Resolución de 2560 px x 1440 px. Memoria RAM de 10GB. Cuenta con: 1 cable hdmi, 1 cable de alimentación ca. La duración de la batería de los controles depende del uso que se le dé al producto.",
+      "category": "videojuegos",
+      "price": "$5469.00",
+      "id": "560e0f1e-f512-4051-b80f-24cd83bfa54c"
     }
   ]
 }

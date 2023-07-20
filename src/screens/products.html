@@ -64,11 +64,7 @@
             <a href="../screens/addProduct.html">Agregar producto</a>
           </button>
         </div>
-        <div
-          class="container-cards flex"
-          style="flex-wrap: wrap; gap: 1.5rem; margin-top: 1.5rem"
-          data-cards
-        ></div>
+        <div class="container-cards" data-cards></div>
       </section>
       <section
         class="about-us py-16 flex gap-[7rem] justify-around max-[768px]:justify-between max-[480px]:flex-col max-[480px]:items-center max-[480px]:gap-4"
@@ -105,13 +101,19 @@
           <h3 class="text-Wood-Charcoal font-semibold text-sm mb-2">
             Hable con nosotros
           </h3>
-          <label for="" class="text-xs pl-2 text-Grey-of-darkness"
-            >Nombre</label
-          >
-          <input
-            type="text"
-            class="outline-none border-b border-Grey-of-darkness pl-2 w-full hover:border-Blue-De-France"
-          />
+          <div class="flex flex-col">
+            <label for="" class="text-xs pl-2 text-Grey-of-darkness"
+              >Nombre</label
+            >
+            <input
+              type="text"
+              class="input-in outline-none border-b border-Grey-of-darkness pl-2 w-full hover:border-Blue-De-France"
+              required
+              data-nameClient
+              data-type="nameclient"
+            />
+            <span class="message-error"></span>
+          </div>
           <div class="flex flex-col mt-4">
             <label for="form-message" class="text-xs pl-2 text-Grey-of-darkness"
               >Escribe tu mensaje</label
@@ -119,8 +121,12 @@
             <textarea
               name="form-message"
               id=""
-              class="text-xs w-full resize-none border-b border-Grey-of-darkness pl-2 outline-none hover:border-Blue-De-France"
+              class="input-in text-xs w-full resize-none border-b border-Grey-of-darkness pl-2 outline-none hover:border-Blue-De-France"
+              required
+              data-msgClient
+              data-type="msgclient"
             ></textarea>
+            <span class="message-error"></span>
           </div>
           <button
             type="submit"

@@ -1,3 +1,7 @@
+import { validateForm } from './validate-form.js'
+
+validateForm()
+
 const form = document.querySelector('[data-form]')
 
 const peopleAccess = [
@@ -27,8 +31,8 @@ form.addEventListener('submit', (event) => {
       password == peopleAccess[i].password
     ) {
       window.location.href = './products.html'
-    } else {
-      alert('El usuario o la contraseña son incorrectos')
+      return
     }
   }
+  alert('El usuario o la contraseña son incorrectos')
 })

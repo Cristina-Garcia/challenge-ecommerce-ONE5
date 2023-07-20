@@ -1,6 +1,7 @@
 import { clientServices } from './service.js'
-// import { createNewProduct } from './products-category.js'
+import { validateForm } from './validate-form.js'
 
+validateForm()
 const url = new URL(window.location)
 const idProduct = url.searchParams.get('id')
 

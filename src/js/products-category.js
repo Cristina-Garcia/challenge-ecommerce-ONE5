@@ -1,4 +1,7 @@
 import { clientServices } from './service.js'
+import { validateForm } from './validate-form.js'
+
+validateForm()
 
 const createNewProduct = (name, imageURL, price, id) => {
   const card = document.createElement('div')

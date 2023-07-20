@@ -160,14 +160,20 @@
           <h3 class="text-Wood-Charcoal font-semibold text-sm mb-2">
             Hable con nosotros
           </h3>
-          <label for="nameMail" class="text-xs text-Grey-of-darkness pl-2"
-            >Nombre</label
-          >
-          <input
-            id="nameMail"
-            type="text"
-            class="outline-none border-b border-Grey-of-darkness pl-2 w-full hover:border-Blue-De-France"
-          />
+          <div class="flex flex-col">
+            <label for="nameMail" class="text-xs text-Grey-of-darkness pl-2"
+              >Nombre</label
+            >
+            <input
+              id="nameMail"
+              type="text"
+              class="input-in outline-none border-b border-Grey-of-darkness pl-2 w-full hover:border-Blue-De-France"
+              required
+              data-nameClient
+              data-type="nameclient"
+            />
+            <span class="message-error"></span>
+          </div>
           <div class="flex flex-col" style="margin-top: 1rem">
             <label for="formMessage" class="text-xs text-Grey-of-darkness pl-2"
               >Escribe tu mensaje</label
@@ -175,8 +181,12 @@
             <textarea
               name=""
               id="formMessage"
-              class="text-xs w-full resize-none border-b border-Grey-of-darkness pl-2 outline-none hover:border-Blue-De-France"
+              class="input-in text-xs w-full resize-none border-b border-Grey-of-darkness pl-2 outline-none hover:border-Blue-De-France"
+              required
+              data-msgClient
+              data-type="msgclient"
             ></textarea>
+            <span class="message-error"></span>
           </div>
           <button
             type="submit"
