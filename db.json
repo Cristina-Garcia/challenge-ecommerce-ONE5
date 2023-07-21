@@ -343,6 +343,22 @@
       "category": "electronicos",
       "price": "$2478.00",
       "id": "5720c1fd-cfa0-4d23-b309-462b19a2cf42"
+    },
+    {
+      "name": "Zapato Caballero Piel Baraldi Confort 100 Comodos Ligeros",
+      "imageURL": "https://http2.mlstatic.com/D_NQ_NP_2X_619996-MLM47984375732_102021-F.webp",
+      "description": "Zapato Baraldi de Piel de Res Autentica ideal para pies cansados, delicados, o gente que pasa mucho tiempo de pie , tambien se puede recomendar para pie diabético .",
+      "category": "shoes",
+      "price": "$649.00",
+      "id": "c1383451-af02-4f20-b9bb-618f5c57e41e"
+    },
+    {
+      "name": "Milk Makeup - Hydro Grip Makeup Primer",
+      "imageURL": "https://http2.mlstatic.com/D_NQ_NP_2X_679138-MLM51077779308_082022-F.webp",
+      "description": "Este es un primer en gel que suaviza la textura de la piel, sella la hidratación y permite que tu maquillaje se aplique más bonito y fácil, y se mantenga en su lugar hasta por 12 horas.\n\nSu fórmula es ligera, libre de silicones y aceites, y su color es transparente, por lo que puede usarse en cualquier tipo y tono de piel.",
+      "category": "cosmetics",
+      "price": "$1662.00",
+      "id": "16360657-cdd1-4e01-a3dd-e4f1beb055aa"
     }
   ]
 }
