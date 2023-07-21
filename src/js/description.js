@@ -5,6 +5,7 @@ validateForm()
 const url = new URL(window.location)
 const idProduct = url.searchParams.get('id')
 
+//funcion que crea un producto
 const createNewProduct = (name, imageURL, price, id) => {
   const card = document.createElement('div')
   const contentCard = `
@@ -18,6 +19,7 @@ const createNewProduct = (name, imageURL, price, id) => {
   return card
 }
 
+//Funcion que mestra la descripcion del producto seleccionado
 const showDescription = (name, imageURL, price, description, id) => {
   const containerDescription = document.createElement('div')
   const content = `
@@ -53,15 +55,22 @@ clientServices.listProducts().then((products) => {
     filterProduct.description,
     filterProduct.id
   )
-
+  //Mostramos el producto seleccionado
   container.appendChild(cardDescription)
 
+  //Filtramos los productos similares por categoria
   const productsSimilar = products.filter((product) => {
     return product.category.includes(filterProduct.category)
   })
-  // const similars = productsSimilar.splice(filterProduct)
-  // console.log(similars)
-  productsSimilar.forEach(({ name, imageURL, price, id }) => {
+  //Creamos una copia de los pproductos similares
+  const newArray = [...productsSimilar]
+  //Eliminamos el producto con descripcion mostrado de la lista de similares
+  const resultado = newArray.filter((array) => {
+    console.log(array)
+    return array.id !== idProduct
+  })
+  //Mostramos los productos similares
+  resultado.forEach(({ name, imageURL, price, id }) => {
     const newCard = createNewProduct(name, imageURL, price, id)
     containerSimilar.appendChild(newCard)
   })

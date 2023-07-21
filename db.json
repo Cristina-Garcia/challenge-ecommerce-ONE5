@@ -6,7 +6,7 @@
       "price": "$1500.00",
       "description": "JBL Charge 3 Altavoz portatil Bluetooth impermeable",
       "category": "electronics",
-      "id": 1
+      "id": "1"
     },
     {
       "name": "JBL Tune 125TWS",
@@ -14,7 +14,7 @@
       "description": "Audífonos Inalámbricos Bluetooth-Blanco",
       "category": "electronics",
       "price": "$1677.00",
-      "id": 2
+      "id": "2"
     },
     {
       "name": "Mando inalambrico Xbox",
@@ -22,7 +22,7 @@
       "description": "Edicion limitada de Gears of War 4 Crimson Omen",
       "category": "electronics",
       "price": "$2873.00",
-      "id": 3
+      "id": "3"
     },
     {
       "name": "Men Sport Watch",
@@ -30,7 +30,7 @@
       "description": "PTHTECHUS Startwatch",
       "category": "electronics",
       "price": "$985.00",
-      "id": 4
+      "id": "4"
     },
     {
       "name": "INIU Power Bank",
@@ -38,7 +38,7 @@
       "description": "El más avanzado PD 3.0 y QC 4+ de tecnologías combinadas para una carga rápida",
       "category": "electronics",
       "price": " $375.84",
-      "id": 5
+      "id": "5"
     },
     {
       "name": "Fujifilm Instax Mini 12",
@@ -46,7 +46,7 @@
       "description": "Cámara para selfies incorporada",
       "category": "electronics",
       "price": "$2399.00",
-      "id": 6
+      "id": "6"
     },
     {
       "name": "Canon EOS 6D Mark II",
@@ -54,7 +54,7 @@
       "description": " Con la velocidad para capturar acción y la versatilidad para crear fotografías fenomenales y videos Full HD",
       "category": "electronics",
       "price": "$2299.00",
-      "id": 7
+      "id": "7"
     },
     {
       "name": "Samsung  2021 Neo QLED",
@@ -62,7 +62,7 @@
       "description": " Audio Potencia de audio 70 W Tecnología de sonido Seguimiento de objetos Sound Plus Altavoces 8 Procesamiento de sonido Dol",
       "category": "electronics",
       "price": " $16659.83",
-      "id": 8
+      "id": "8"
     },
     {
       "name": "Audifonos inalambricos",
@@ -70,7 +70,7 @@
       "description": "Auriculares inalámbricos con cancelación de ruido Beats Solo Pro ",
       "category": "electronics",
       "price": " $6459.83",
-      "id": 9
+      "id": "9"
     },
     {
       "name": "Audifonos JBL",
@@ -78,7 +78,7 @@
       "description": "Auriculares inalámbricos con cancelación de ruido Beats Solo Pro ",
       "category": "electronics",
       "price": "$1785.00",
-      "id": 10
+      "id": "10"
     },
     {
       "name": "Cazadora de universidad",
@@ -86,7 +86,7 @@
       "description": "Cazadora de universidad con parche de letra de color combinado de ribete de rayas ",
       "category": "clothes",
       "price": "$636.00",
-      "id": 11
+      "id": "11"
     },
     {
       "name": "Women's Mid-Rise Trousers",
@@ -94,7 +94,7 @@
       "description": "Pantalones de tiro medio para mujer",
       "category": "clothes",
       "price": "$300.00",
-      "id": 12
+      "id": " 12"
     },
     {
       "name": "Pullower",
@@ -102,7 +102,7 @@
       "description": "Pullower con estampado de letra y dibnujos animados con forro termico",
       "category": "clothes",
       "price": "$262.00",
-      "id": 13
+      "id": "13"
     },
     {
       "name": "Vaquero de talle alto",
@@ -110,7 +110,7 @@
       "description": "Lavado claro cuello, vaquero liso pernera recta adornado no elástico",
       "category": "clothes",
       "price": "$452.44",
-      "id": 14
+      "id": "14"
     },
     {
       "name": "Jogger",
@@ -118,7 +118,7 @@
       "description": "Joggers slim cargo con cordon en la cintura, 95% algodón",
       "category": "clothes",
       "price": "$400.00",
-      "id": 15
+      "id": "15"
     },
     {
       "name": "Camisa",
@@ -126,7 +126,7 @@
       "description": "Camisa negra informal de manga corta satinada lisa con adornos no elásticos de verano para hombres",
       "category": "clothes",
       "price": "$204.81",
-      "id": 16
+      "id": "16"
     },
     {
       "name": "Pack de 3 hipsters",
@@ -134,7 +134,7 @@
       "description": "Hechos de una mezcla rica en algodón con mayor elasticidad",
       "category": "clothes",
       "price": "$200.00",
-      "id": 17
+      "id": "17"
     },
     {
       "name": "Vestido smock",
@@ -142,7 +142,7 @@
       "description": "Vestido de color combinado ribete con fruncido bajo",
       "category": "clothes",
       "price": "$440.00",
-      "id": 18
+      "id": "18"
     },
     {
       "name": "Converse Chuck",
@@ -150,7 +150,7 @@
       "description": "Zapatillas altas Taylor All Star",
       "category": "shoes",
       "price": "$3406.00",
-      "id": 19
+      "id": "19"
     },
     {
       "name": "DC Shoe",
@@ -158,7 +158,7 @@
       "description": "DC Men's Deadpool Court Graffik Skate Shoe",
       "category": "shoes",
       "price": "$1075.00",
-      "id": 20
+      "id": "20"
     },
     {
       "name": "DC Shoe Tenis",
@@ -166,7 +166,7 @@
       "description": "DC Shoes Tenis Casuales Dama ADJS300194WS4 Textil BCO",
       "category": "shoes",
       "price": "$799.00",
-      "id": 21
+      "id": "21"
     },
     {
       "name": "Tenis de Piel",
@@ -174,7 +174,7 @@
       "description": "VICEVERSA Crazy Horse para Hombre color miel ",
       "category": "shoes",
       "price": "$1449.00",
-      "id": 22
+      "id": "22"
     },
     {
       "name": "Sandalias Mayari",
@@ -182,7 +182,7 @@
       "description": "Birkenstock doble hebilla ajustable y planntilla de corcho ",
       "category": "shoes",
       "price": "$2590.00",
-      "id": 23
+      "id": "23"
     },
     {
       "name": "Teia bloqueador solar",
@@ -190,7 +190,7 @@
       "description": "Protector solar en polvo 30FPS 100% mineral",
       "category": "cosmetics",
       "price": "$370.00",
-      "id": 24
+      "id": "24"
     },
     {
       "name": "Fotoprotector",
@@ -206,7 +206,7 @@
       "description": "La Roche Posay Effaclar facial para piel grasa",
       "category": "cosmetics",
       "price": "$392.00",
-      "id": 26
+      "id": "26"
     },
     {
       "name": "Labial Revlon",
@@ -214,7 +214,7 @@
       "description": "Revlon Ultra HD matte lipcolor",
       "category": "cosmetics",
       "price": "$127.00",
-      "id": 27
+      "id": "27"
     },
     {
       "name": "Gel para ceja",
@@ -222,7 +222,7 @@
       "description": "Pink Up, Caffeine Eye Gel, contorno de ojos en gel",
       "category": "cosmetics",
       "price": "$170.00",
-      "id": 28
+      "id": "28"
     },
     {
       "name": "Utensilios de cocina",
@@ -230,7 +230,7 @@
       "description": "Juego de utensilios de cocina de espátulas, cucharones, pinzas de cocina y medidores de madera",
       "category": "hogar",
       "price": "$649.00",
-      "id": 29
+      "id": "29"
     },
     {
       "name": "Cómoda De 5 Cajones",
@@ -238,7 +238,7 @@
       "description": "Almacenamiento para hogar y oficina",
       "category": "Hogar",
       "price": "$1899.00",
-      "id": 30
+      "id": "30"
     },
     {
       "name": "Kit de limpieza",
@@ -246,7 +246,7 @@
       "description": "Kit limpieza completo de casa, inlcuye colgador",
       "category": "hogar",
       "price": "$929.00",
-      "id": 31
+      "id": "31"
     },
     {
       "name": "Toallas de baño ",
@@ -254,7 +254,7 @@
       "description": "Toallas de baño marrones de alta calidad",
       "category": "hogar",
       "price": "$388.00",
-      "id": 32
+      "id": "32"
     },
     {
       "name": "Luces colgantes",
@@ -262,7 +262,7 @@
       "description": "Lámpara de ratán con cuerda de cáñamo ajustable",
       "category": "hogar",
       "price": "$899.00",
-      "id": 33
+      "id": "33"
     },
     {
       "name": "El principito",
@@ -295,6 +295,54 @@
       "category": "videojuegos",
       "price": "$5469.00",
       "id": "560e0f1e-f512-4051-b80f-24cd83bfa54c"
+    },
+    {
+      "name": "Closet ropero armable",
+      "imageURL": "https://http2.mlstatic.com/D_NQ_NP_2X_915207-MLM69379431901_052023-F.webp",
+      "description": "cuenta con 8 secciones internas para organizar tu ropa. secciones de gran capacidad: las 2 divisiones principales son ideales para colgar variedad de prendas y, las 6 secciones cuadradas para ordenar ropa de cama, toallas, zapatos, peluches o bolsos.",
+      "category": "hogar",
+      "price": "$1709.00",
+      "id": "06e882bd-5024-4fbb-8470-07bf96149b3c"
+    },
+    {
+      "name": "Colchón Matrimonial Ortopédico",
+      "imageURL": "https://http2.mlstatic.com/D_NQ_NP_2X_890169-MLA53687867880_022023-F.webp",
+      "description": "olchoneta integrada Pillow de altura intermedia, se basa en capas de espuma en posiciones precisas que maximizan el soporte y confort, eliminando los puntos de presión en hombros, cadera y pies, además de aumentar el soporte faltante en cuello y cintura.",
+      "category": "hogar",
+      "price": "$4399.00",
+      "id": "067582b4-dbd7-4322-9ad7-e2b22bd1da48"
+    },
+    {
+      "name": "Herramientas de Dados de llave",
+      "imageURL": "https://http2.mlstatic.com/D_NQ_NP_2X_864048-CBT49944891289_052022-F.webp",
+      "description": "Este set incluye las herramientas más usadas en el ámbito mecánico, todas las hechas de acero de cromo vanadio y son muy resistentes, con este set en tu casa, mochila o la cajuela de tu auto puedes estar seguro de que estarás preparado en caso de necesitar alguna herramienta",
+      "category": "automotriz",
+      "price": "$100.00",
+      "id": "fc9a99ee-9f82-467c-b5e9-3ab2aca9de51"
+    },
+    {
+      "name": "Pantalon estilo hip hop para hombre",
+      "imageURL": "https://http2.mlstatic.com/D_NQ_NP_2X_905246-MLM53536572517_012023-F.webp",
+      "description": "Jeans clásicos, con suficiente material, sueltos y cómodos, resistentes al desgaste y duraderos.",
+      "category": "clothes",
+      "price": "$268.00",
+      "id": "2df7758c-a550-4633-bb30-15c133d0d9b6"
+    },
+    {
+      "name": "Pantunflas de felpa para mujer",
+      "imageURL": "https://http2.mlstatic.com/D_NQ_NP_2X_834803-MLM51847928947_102022-F.webp",
+      "description": "aumento de altura, antideslizante, absorción de impactos, etc",
+      "category": "shoes",
+      "price": "$208.00",
+      "id": "a6003732-11ff-42a7-9f9a-47db0e2ea467"
+    },
+    {
+      "name": "Tablet samsung tab A A7",
+      "imageURL": "https://http2.mlstatic.com/D_NQ_NP_2X_685394-MLU69483521646_052023-F.webp",
+      "description": "Sus conexiones wi-fi, wi-fi direct, bluetooth, usb-c te permiten potenciar sus funciones al máximo.",
+      "category": "electronicos",
+      "price": "$2478.00",
+      "id": "5720c1fd-cfa0-4d23-b309-462b19a2cf42"
     }
   ]
 }

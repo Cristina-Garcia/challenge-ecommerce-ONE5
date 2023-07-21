@@ -1,8 +1,8 @@
 const listProducts = () =>
   fetch('http://localhost:3000/productos').then((respuesta) => respuesta.json())
 
-const createProduct = (name, imageURL, description, category, price) => {
-  return fetch('http://localhost:3000/productos', {
+const createProduct = async (name, imageURL, description, category, price) => {
+  return await fetch('http://localhost:3000/productos', {
     method: 'POST',
     headers: {
       'Content-type': 'application/json',

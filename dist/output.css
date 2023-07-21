@@ -900,10 +900,10 @@ video {
   justify-content: center;
   align-items: center;
   background-color: rgba(0, 0, 0, 0.8);
-  position: fixed;
+  position: absolute;
   top: 0;
   left: 0;
-  overflow: hidden;
+  overflow: auto;
   transition: all 0.5s;
   z-index: 1;
 }
