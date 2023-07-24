@@ -11,7 +11,7 @@ const createNewProduct = (name, imageURL, price, id) => {
   const contentCard = `
       <img src="${imageURL}" alt="${name}" class="w-full "/>
       <p class="text-Wood-Charcoal text-xs">${name}</p>
-      <span class="text-Wood-Charcoal font-semibold text-sm">${price}</span>
+      <span class="text-Wood-Charcoal font-semibold text-sm">$${price}</span>
       <a href="./descriptionProduct.html?id=${id}" class="text-Blue-De-France font-semibold text-sm">Ver producto</a>
      `
   card.classList.add('card')
@@ -29,7 +29,7 @@ const showDescription = (name, imageURL, price, description, id) => {
     <div class="flex flex-col gap-2">
       <h2 class="text-Wood-Charcoal text-xl">${name}</h2>
       <span class="text-Wood-Charcoal text-base font-bold mt-2"
-            >${price}</span>
+            >$${price}</span>
       <p class="text-Wood-Charcoal font-normal">
             ${description}
       </p>

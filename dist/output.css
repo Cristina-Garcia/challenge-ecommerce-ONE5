@@ -882,6 +882,12 @@ video {
   margin-top: 1.5rem;
 }
 
+input[type='number']::-webkit-outer-spin-button,
+input[type='number']::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
 /* Product description */
 
 .product-description {
@@ -895,7 +901,8 @@ video {
 .modal {
   display: none;
   width: 100vw;
-  height: 100vh;
+  height: 100%;
+  /* height: 100vh; */
   flex-direction: column;
   justify-content: center;
   align-items: center;
@@ -903,7 +910,6 @@ video {
   position: absolute;
   top: 0;
   left: 0;
-  overflow: auto;
   transition: all 0.5s;
   z-index: 1000;
 }
@@ -912,14 +918,9 @@ video {
   display: flex;
 }
 
-.modal-icon-added {
-  width: 3rem;
-  height: 3rem;
-  color: greenyellow;
-  background-image: url('../images/checkmark.png');
-  background-size: cover;
-  background-repeat: no-repeat;
-  margin-bottom: 1rem;
+.modal-img-exit {
+  width: 100px;
+  height: 100px;
 }
 
 .message-error {

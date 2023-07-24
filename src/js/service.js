@@ -1,8 +1,10 @@
+const BASE_API = 'http://localhost:3000/productos'
+const mockapiUrl = 'https://64becf195ee688b6250cf3b2.mockapi.io/products'
 const listProducts = () =>
-  fetch('http://localhost:3000/productos').then((respuesta) => respuesta.json())
+  fetch(mockapiUrl).then((respuesta) => respuesta.json())
 
 const createProduct = async (name, imageURL, description, category, price) => {
-  return await fetch('http://localhost:3000/productos', {
+  return await fetch(mockapiUrl, {
     method: 'POST',
     headers: {
       'Content-type': 'application/json',
@@ -19,17 +21,15 @@ const createProduct = async (name, imageURL, description, category, price) => {
 }
 
 const deleteProduct = (id) => {
-  return fetch(`http://localhost:3000/productos/${id}`, {
+  return fetch(`${mockapiUrl}/${id}`, {
     method: 'DELETE',
   })
 }
 const detailProduct = (id) => {
-  return fetch(`http://localhost:3000/productos/${id}`).then((respuesta) =>
-    respuesta.json()
-  )
+  return fetch(`${mockapiUrl}/${id}`).then((respuesta) => respuesta.json())
 }
 const updateProduct = (name, imageURL, description, category, price, id) => {
-  return fetch(`http://localhost:3000/productos/${id}`, {
+  return fetch(`${mockapiUrl}/${id}`, {
     method: 'PUT',
     headers: {
       'Content-type': 'application/json',

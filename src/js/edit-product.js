@@ -55,7 +55,19 @@ formEdit.addEventListener('submit', (event) => {
       priceToEdit,
       id
     )
-    .then(() => {
-      console.log('El producto se ha editado correctamente')
+    .then((response) => {
+      const modal = document.getElementById('modal-exit')
+      modal.classList.add('modal-active')
+      setTimeout(() => {
+        window.addEventListener(
+          'click',
+          (event) => {
+            if (event.target == modal) {
+              modal.classList.remove('modal-active')
+            }
+          },
+          1000
+        )
+      })
     })
 })
