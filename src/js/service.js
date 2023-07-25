@@ -1,4 +1,6 @@
+//json-server
 const BASE_API = 'http://localhost:3000/productos'
+//mockAPI
 const mockapiUrl = 'https://64becf195ee688b6250cf3b2.mockapi.io/products'
 const listProducts = () =>
   fetch(mockapiUrl).then((respuesta) => respuesta.json())

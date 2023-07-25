@@ -27,7 +27,7 @@
   </head>
   <body>
     <header class="py-8 px-[9.5rem] flex gap-8 max-[768px]:px-8 items-center">
-      <div class="flex w-52 justify-start">
+      <button class="flex w-52 justify-start" id="home">
         <a href="#" class="flex justify-center items-center">
           <img
             class="w-10 h-10"
@@ -38,22 +38,22 @@
             <span class="text-Blue-De-France font-bold">Online</span>Shopping
           </p>
         </a>
-      </div>
+      </button>
       <div
         class="flex w-full justify-between max-[480px]:flex-row-reverse max-[480px]:gap-2"
       >
-        <div class="flex items-center">
+        <form class="flex items-center" id="search">
           <input
             type="search"
-            name="search"
-            id="search"
             class="input-search outline-none mr-20 max-[480px]:hidden"
             placeholder="¿Qué deseas buscar?"
+            aria-label="Buscar"
+            data-search
           />
-          <button>
+          <button type="submit">
             <i class="fas fa-search"></i>
           </button>
-        </div>
+        </form>
         <button
           class="border border-Blue-De-France py-4 px-8 ml-4 max-[480px]:ml-0 max-[480px]:mr-4"
         >
@@ -73,7 +73,6 @@
           Ver Electronics
         </button>
       </section>
-
       <section
         class="section-category px-[9.5rem] pt-16 font-raleway max-[768px]:px-8 max-[480px]:px-4"
       >
@@ -128,6 +127,9 @@
           data-shoes
         ></div>
       </section>
+      <section
+        class="products px-[9.5rem] pt-16 font-raleway max-[768px]:px-8 max-[480px]:px-4"
+      ></section>
       <section
         class="about-us py-16 px-[9.5rem] flex gap-[7rem] justify-around max-[768px]:justify-between max-[768px]:px-8 max-[480px]:flex-col max-[480px]:items-center max-[480px]:gap-4"
       >

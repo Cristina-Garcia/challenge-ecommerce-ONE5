@@ -16,12 +16,12 @@ const createNewProduct = (name, imageURL, price, id) => {
         </div
         >
       </div>
-      <div class="flex gap-4 text-Blue-De-France" style="position: absolute; top: 5px; right: 5px">
+      <div class="flex gap-5 text-Blue-De-France" style="position: absolute; top: 5px; right: 5px">
       <button id="${id}">
-      <i class="fa-solid fa-trash"></i>
+      <i class="fa-solid fa-trash scale-150 "></i>
       </button>
       <a href="./editProduct.html?id=${id}">
-      <i class="fa-solid fa-pen"></i>
+      <i class="fa-solid fa-pen scale-125"></i>
       </a>
       </div>
      `
