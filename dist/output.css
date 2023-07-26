@@ -843,6 +843,10 @@ video {
   padding-block: 92px;
 }
 
+.section-banner {
+  box-sizing: border-box;
+}
+
 input[type='search']::-webkit-search-cancel-button {
   display: none;
 }
