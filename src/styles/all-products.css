@@ -1,0 +1,22 @@
+.container-all-products {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  padding-inline: 9.5rem;
+  padding-top: 4rem;
+  font-family: Raleway, sans-serif;
+}
+
+/* px-[9.5rem] pt-16 font-raleway max-[768px]:px-8 max-[480px]:px-4 */
+
+@media (max-width: 768px) {
+  .container-all-products {
+    padding-inline: 2rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .container-all-products {
+    padding-inline: 1rem;
+  }
+}

@@ -1,0 +1,23 @@
+/* header div {
+  border: 1px solid red;
+} */
+.section-search {
+  display: none;
+  flex-wrap: wrap;
+  gap: 10px;
+  padding-inline: 9.5rem;
+  padding-top: 4rem;
+  font-family: Raleway, sans-serif;
+}
+
+@media (max-width: 768px) {
+  .section-search {
+    padding-inline: 2rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .section-search {
+    padding-inline: 1rem;
+  }
+}

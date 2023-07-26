@@ -604,10 +604,6 @@ video {
   width: 2.5rem;
 }
 
-.w-52 {
-  width: 13rem;
-}
-
 .w-\[150px\] {
   width: 150px;
 }
@@ -845,6 +841,10 @@ video {
 
 .form-login {
   padding-block: 92px;
+}
+
+input[type='search']::-webkit-search-cancel-button {
+  display: none;
 }
 
 /* Products */

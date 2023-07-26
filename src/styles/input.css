@@ -5,7 +5,9 @@
 .form-login {
   padding-block: 92px;
 }
-
+input[type='search']::-webkit-search-cancel-button {
+  display: none;
+}
 /* Products */
 .card {
   display: flex;

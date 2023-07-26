@@ -6,13 +6,14 @@ const createNewProduct = (name, imageURL, price, id) => {
       <div class="flex flex-col">
       <p class="text-Wood-Charcoal text-xs">${name}</p>
       <span class="text-Wood-Charcoal font-semibold text-sm">$${price}</span>
-      <a href="./src/screens/descriptionProduct.html?id=${id}" class="text-Blue-De-France font-semibold text-sm">Ver producto</a>
+      <a href="/src/screens/descriptionProduct.html?id=${id}" class="text-Blue-De-France font-semibold text-sm">Ver producto</a>
       </div>
      `
   card.classList.add('card')
   card.innerHTML = contentCard
   return card
 }
+
 //Funcion mostrar producto-description
 const showDescription = (name, imageURL, price, description, id) => {
   const containerDescription = document.createElement('div')

@@ -20,10 +20,12 @@
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;400;700&display=swap"
       rel="stylesheet"
     />
+    <!-- css -->
+    <link rel="stylesheet" href="../styles/all-products.css" />
   </head>
   <body>
     <header class="py-8 px-[9.5rem] flex gap-8 max-[768px]:px-8 items-center">
-      <button class="flex w-52 justify-start" id="home">
+      <div class="flex w-52 justify-start" id="home">
         <a href="../../index.html" class="flex justify-center items-center">
           <img
             class="w-10 h-10"
@@ -34,7 +36,7 @@
             <span class="text-Blue-De-France font-bold">Online</span>Shopping
           </p>
         </a>
-      </button>
+      </div>
       <div
         class="flex w-full justify-between max-[480px]:flex-row-reverse max-[480px]:gap-2"
       >
@@ -59,22 +61,19 @@
     </header>
     <main class="max-[768px]:overflow-y-auto">
       <section
-        class="banner bg-banner bg- bg-cover bg-no-repeat pb-8 pt-[56px] px-[9.5rem] max-[768px]:px-8"
+        class="section-banner bg-banner bg- bg-cover bg-no-repeat pb-8 pt-[56px] px-[9.5rem] max-[768px]:px-8"
       >
         <h1 class="font-bold text-3xl mt-28">Junio Promocional</h1>
         <p class="font-semibold py-4">
           Productos seleccionados con 33% de descuento
         </p>
         <button class="bg-Blue-De-France text-white py-4 px-8">
-          Ver Electronics
+          <a href="./allProducts.html?category=electronics"> Ver Electronics</a>
         </button>
       </section>
-
+      <section id="all-products" class="container-all-products"></section>
       <section
-        class="products px-[9.5rem] pt-16 font-raleway max-[768px]:px-8 max-[480px]:px-4"
-      ></section>
-      <section
-        class="about-us py-16 px-[9.5rem] flex gap-[7rem] justify-around max-[768px]:justify-between max-[768px]:px-8 max-[480px]:flex-col max-[480px]:items-center max-[480px]:gap-4"
+        class="section-about-us py-16 px-[9.5rem] flex gap-[7rem] justify-around max-[768px]:justify-between max-[768px]:px-8 max-[480px]:flex-col max-[480px]:items-center max-[480px]:gap-4"
       >
         <div
           class="flex w-full items-start max-[768px]:flex-col max-[768px]:gap-4 max-[480px]:items-center"
