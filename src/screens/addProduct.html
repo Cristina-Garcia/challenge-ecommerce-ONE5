@@ -22,9 +22,7 @@
     <title>Agregar nuevo producto</title>
   </head>
   <body class="relative">
-    <header
-      class="py-8 px-[9.5rem] flex gap-8 justify-start box-border max-[768px]:px-8 items-center"
-    >
+    <header class="header-navbar">
       <div class="flex w-52 justify-start">
         <a href="../../index.html" class="flex justify-center items-center">
           <img
@@ -54,8 +52,8 @@
         </div>
       </div>
     </header>
-    <main class="px-[9.5rem] max-[768px]:px-8 max-[480px]:px-4">
-      <section class="form-login flex flex-col items-center w-full">
+    <main class="main">
+      <section class="form-login flex flex-col items-center">
         <a
           class="flex items-center gap-2 font-semibold text-Blue-De-France"
           href="./products.html"
@@ -65,7 +63,7 @@
         </a>
         <form
           id="form-add"
-          class="flex flex-col mt-4 w-[32rem] max-[768px]:w-[27rem] max-[480px]:w-[300px]"
+          class="flex flex-col mt-4 w-[40rem] max-[768px]:w-[27rem] max-[480px]:w-[300px]"
           data-formadd
         >
           <h3 class="text-Wood-Charcoal font-semibold text-3xl mb-8 text-start">
@@ -150,15 +148,9 @@
           </button>
         </form>
       </section>
-      <section
-        class="section-about-us py-16 flex gap-[7rem] justify-around max-[768px]:justify-between max-[480px]:flex-col max-[480px]:items-center max-[480px]:gap-4"
-      >
-        <div
-          class="flex w-full items-start max-[768px]:flex-col max-[768px]:gap-4 max-[480px]:items-center"
-        >
-          <div
-            class="flex items-center mr-[7rem] max-[480px]:justify-center max-[480px]:mr-0"
-          >
+      <section class="section-about-us">
+        <div class="about-us-container">
+          <div class="about-us-logo">
             <a href="#" class="flex items-center">
               <img
                 class="w-10 h-10"
@@ -180,9 +172,7 @@
             <li><a href="">Anúncie aquí</a></li>
           </ul>
         </div>
-        <form
-          class="flex flex-col w-[32rem] max-[768px]:w-[27rem] max-[480px]:w-[300px]"
-        >
+        <form class="form-contact-us">
           <h3 class="text-Wood-Charcoal font-semibold text-sm mb-2">
             Hable con nosotros
           </h3>

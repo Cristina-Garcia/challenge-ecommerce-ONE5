@@ -1,8 +1,9 @@
 .container-all-products {
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
   gap: 10px;
-  padding-inline: 9.5rem;
+  padding-inline: 6rem;
   padding-top: 4rem;
   font-family: Raleway, sans-serif;
 }

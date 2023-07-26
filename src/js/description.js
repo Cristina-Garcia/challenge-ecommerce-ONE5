@@ -37,7 +37,7 @@ clientServices.listProducts().then((products) => {
   })
   //Mostramos los productos similares
   resultado.forEach(({ name, imageURL, price, id }) => {
-    const newCard = cardsStructure.createNewProduct(name, imageURL, price, id)
+    const newCard = cardsStructure.createProduct(name, imageURL, price, id)
     containerSimilar.appendChild(newCard)
   })
 })
