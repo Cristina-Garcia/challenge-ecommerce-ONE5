@@ -5,13 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>OnlineShoping</title>
     <!-- Favicon -->
-    <link
-      rel="icon"
-      type="image/x-icon"
-      href="./src/images/shopping-cart.png"
-    />
+    <link rel="icon" type="image/x-icon" href="../images/shopping-cart.png" />
     <!-- Tailwind -->
-    <link href="./dist/output.css" rel="stylesheet" />
+    <link href="../../dist/output.css" rel="stylesheet" />
     <!-- Font Awesome  -->
     <link
       rel="stylesheet"
@@ -24,14 +20,15 @@
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;400;700&display=swap"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="../styles/not-found.css" />
   </head>
   <body>
     <header class="py-8 px-[9.5rem] flex gap-8 max-[768px]:px-8 items-center">
       <button class="flex w-52 justify-start" id="home">
-        <a href="/index.html" class="flex justify-center items-center">
+        <a href="../../index.html" class="flex justify-center items-center">
           <img
             class="w-10 h-10"
-            src="./src/images/shopping-cart.png"
+            src="../images/shopping-cart.png"
             alt="logo OnlineShoping from flaticon"
           />
           <p class="font-raleway">
@@ -62,76 +59,16 @@
       </div>
     </header>
     <main class="max-[768px]:overflow-y-auto">
-      <section
-        class="banner bg-banner bg- bg-cover bg-no-repeat pb-8 pt-[56px] px-[9.5rem] max-[768px]:px-8"
-      >
-        <h1 class="font-bold text-3xl mt-28">Junio Promocional</h1>
-        <p class="font-semibold py-4">
-          Productos seleccionados con 33% de descuento
-        </p>
-        <button class="bg-Blue-De-France text-white py-4 px-8">
-          <a href=""> Ver Electronics</a>
-        </button>
+      <section class="not-found">
+        <figure class="not-found-container-img">
+          <img
+            src="../images/search.png"
+            alt="Busqueda no encontrada by Freepik"
+          />
+        </figure>
+        <h2 class="not-found-title">Busqueda no encontrada</h2>
+        <h3>Por favor, regresa o intenta una nueva busqueda</h3>
       </section>
-      <section
-        class="section-category px-[9.5rem] pt-16 font-raleway max-[768px]:px-8 max-[480px]:px-4"
-      >
-        <div class="card-title flex justify-between pb-4">
-          <h2 class="text-Wood-Charcoal font-semibold text-xl">Electrónicos</h2>
-          <button
-            class="text-Blue-De-France flex gap-2 items-center font-semibold"
-            id="href-electronics"
-          >
-            Ver todo
-            <i class="fa-solid fa-arrow-right"></i>
-          </button>
-        </div>
-        <div
-          class="card-container max-[480px]:flex-wrap max-[480px]:justify-center"
-          data-electronics
-        ></div>
-      </section>
-      <section
-        class="section-category px-[9.5rem] pt-16 font-raleway max-[768px]:px-8 max-[480px]:px-4"
-      >
-        <div class="card-title flex justify-between pb-4">
-          <h2 class="text-Wood-Charcoal font-semibold text-xl">Ropa</h2>
-          <a
-            class="text-Blue-De-France flex gap-2 items-center font-semibold"
-            href="./src/screens/allProducts.html"
-            id="href-clothes"
-          >
-            Ver todo
-            <i class="fa-solid fa-arrow-right"></i>
-          </a>
-        </div>
-        <div
-          class="card-container max-[480px]:flex-wrap max-[480px]:justify-center"
-          data-clothes
-        ></div>
-      </section>
-      <section
-        class="section-category px-[9.5rem] pt-16 font-raleway max-[768px]:px-8 max-[480px]:px-4"
-      >
-        <div class="card-title flex justify-between pb-4">
-          <h2 class="text-Wood-Charcoal font-semibold text-xl">Calzado</h2>
-          <a
-            class="text-Blue-De-France flex gap-2 items-center font-semibold"
-            href="./src/screens/allProducts.html?category=shoes"
-            id="href-shoes"
-          >
-            Ver todo
-            <i class="fa-solid fa-arrow-right"></i>
-          </a>
-        </div>
-        <div
-          class="card-container max-[480px]:flex-wrap max-[480px]:justify-center"
-          data-shoes
-        ></div>
-      </section>
-      <section
-        class="products px-[9.5rem] pt-16 font-raleway max-[768px]:px-8 max-[480px]:px-4"
-      ></section>
       <section
         class="about-us py-16 px-[9.5rem] flex gap-[7rem] justify-around max-[768px]:justify-between max-[768px]:px-8 max-[480px]:flex-col max-[480px]:items-center max-[480px]:gap-4"
       >
@@ -141,10 +78,10 @@
           <div
             class="flex items-center mr-[7rem] max-[480px]:justify-center max-[480px]:mr-0"
           >
-            <a href="./index.html" class="flex items-center">
+            <a href="../../index.html" class="flex items-center">
               <img
                 class="w-10 h-10"
-                src="./src/images/shopping-cart.png"
+                src="../images/shopping-cart.png"
                 alt="logo OnlineShoping from flaticon"
               />
               <p class="font-raleway">
@@ -214,6 +151,5 @@
       <span>Desarrollado por Cristina García Reyes</span>
       <span>2023</span>
     </footer>
-    <script type="module" src="./src/js/products-category.js"></script>
   </body>
 </html>

@@ -11,7 +11,6 @@ export function search() {
     const inputToSearch = document
       .querySelector('[data-search]')
       .value.toLowerCase()
-    console.log(inputToSearch)
 
     clientServices.listProducts().then((products) => {
       const filterProducts = products.filter((product) => {
@@ -46,8 +45,8 @@ export function search() {
   })
 }
 
-const btnHome = document.getElementById('home')
+// const btnHome = document.getElementById('home')
 
-btnHome.addEventListener('click', () => {
-  window.location.reload()
-})
+// btnHome.addEventListener('click', () => {
+//   window.location.reload()
+// })

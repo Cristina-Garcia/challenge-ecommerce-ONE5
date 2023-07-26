@@ -1,0 +1,18 @@
+.not-found {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.not-found-container-img {
+  width: 300px;
+}
+
+.not-found-title {
+  font-size: x-large;
+  font-weight: bold;
+}
+/*
+section {
+  border: 1px solid red;
+} */
