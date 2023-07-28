@@ -12,6 +12,11 @@
   font-size: x-large;
   font-weight: bold;
 }
+.not-found-text {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
 /*
 section {
   border: 1px solid red;

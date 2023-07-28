@@ -26,26 +26,7 @@
     <link rel="stylesheet" href="../styles/menu-mobile.css" />
   </head>
   <body>
-    <div class="wrapper-menu-mobile">
-      <div class="wrapper-menu-container">
-        <button class="close-menu">
-          <i class="fa-solid fa-xmark"></i>
-        </button>
-        <form class="form-search form-search-mobile" id="search">
-          <input
-            type="search"
-            class="input-search outline-none mr-20"
-            placeholder="¿Qué deseas buscar?"
-            aria-label="Buscar"
-            data-search
-            data-type="search"
-          />
-          <button type="submit">
-            <i class="fas fa-search"></i>
-          </button>
-        </form>
-      </div>
-    </div>
+    <div class="wrapper-menu-mobile"></div>
     <header class="header-navbar">
       <div class="flex w-52 justify-start" id="home">
         <a href="../../index.html" class="flex justify-center items-center">
@@ -62,6 +43,9 @@
       <div
         class="flex w-full justify-between max-[480px]:flex-row-reverse max-[480px]:gap-2 max-[480px]:items-center"
       >
+        <button class="close-menu">
+          <i class="fa-solid fa-xmark"></i>
+        </button>
         <form class="flex items-center max-[480px]:hidden" id="search">
           <input
             type="search"
@@ -92,8 +76,10 @@
             alt="Busqueda no encontrada by Freepik"
           />
         </figure>
-        <h2 class="not-found-title">Busqueda no encontrada</h2>
-        <h3>Por favor, regresa o intenta una nueva busqueda</h3>
+        <div class="not-found-text">
+          <h2 class="not-found-title">Busqueda no encontrada</h2>
+          <h3>Por favor, regresa o intenta una nueva busqueda</h3>
+        </div>
       </section>
       <section class="section-about-us">
         <div class="about-us-container">

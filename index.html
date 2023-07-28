@@ -29,27 +29,8 @@
     <!-- css-memu-mobile -->
     <link rel="stylesheet" href="./src/styles/menu-mobile.css" />
   </head>
-  <body>
-    <div class="wrapper-menu-mobile">
-      <div class="wrapper-menu-container">
-        <button class="close-menu">
-          <i class="fa-solid fa-xmark"></i>
-        </button>
-        <form class="form-search form-search-mobile">
-          <input
-            type="search"
-            class="input-search outline-none mr-20"
-            placeholder="¿Qué deseas buscar?"
-            aria-label="Buscar"
-            data-search
-            data-type="search"
-          />
-          <button type="submit">
-            <i class="fas fa-search"></i>
-          </button>
-        </form>
-      </div>
-    </div>
+  <body class="relative">
+    <div class="wrapper-menu-mobile"></div>
     <header class="header-navbar">
       <div class="flex justify-start" id="home">
         <a href="/index.html" class="flex justify-center items-center">
@@ -66,7 +47,10 @@
       <div
         class="flex w-full justify-between max-[480px]:flex-row-reverse max-[480px]:gap-2 max-[480px]:items-center"
       >
-        <form class="form-search flex items-center max-[480px]:hidden">
+        <button class="close-menu">
+          <i class="fa-solid fa-xmark"></i>
+        </button>
+        <form class="form-search">
           <input
             type="search"
             class="input-search outline-none mr-20"

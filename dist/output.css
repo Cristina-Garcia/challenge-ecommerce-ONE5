@@ -560,6 +560,10 @@ video {
   position: absolute;
 }
 
+.relative {
+  position: relative;
+}
+
 .mb-2 {
   margin-bottom: 0.5rem;
 }

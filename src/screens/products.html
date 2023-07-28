@@ -16,27 +16,8 @@
     <link rel="stylesheet" href="../styles/menu-mobile.css" />
     <title>Productos</title>
   </head>
-  <body>
-    <div class="wrapper-menu-mobile">
-      <div class="wrapper-menu-container">
-        <button class="close-menu">
-          <i class="fa-solid fa-xmark"></i>
-        </button>
-        <form class="form-search form-search-mobile">
-          <input
-            type="search"
-            class="input-search outline-none mr-20"
-            placeholder="¿Qué deseas buscar?"
-            aria-label="Buscar"
-            data-search
-            data-type="search"
-          />
-          <button type="submit">
-            <i class="fas fa-search"></i>
-          </button>
-        </form>
-      </div>
-    </div>
+  <body class="relative">
+    <div class="wrapper-menu-mobile"></div>
     <header class="header-navbar">
       <div class="flex w-52 justify-start">
         <a href="../../index.html" class="flex justify-center items-center">
@@ -53,6 +34,9 @@
       <div
         class="flex w-full justify-between max-[480px]:flex-row-reverse max-[480px]:gap-2 max-[480px]:items-center"
       >
+        <button class="close-menu">
+          <i class="fa-solid fa-xmark"></i>
+        </button>
         <form class="form-search flex items-center max-[480px]:hidden">
           <input
             type="search"
