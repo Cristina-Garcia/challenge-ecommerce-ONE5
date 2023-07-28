@@ -1,8 +1,6 @@
 import { clientServices } from './service.js'
 import { validateForm } from './validate-form.js'
-
-validateForm()
-
+import { search } from './search.js'
 //Show all products
 const createNewProduct = (name, imageURL, price, id) => {
   const card = document.createElement('div')
@@ -49,3 +47,6 @@ clientServices
     })
   })
   .catch((err) => alert('Hubo un error'))
+
+validateForm()
+search()

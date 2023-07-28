@@ -1,6 +1,5 @@
 import { validateForm } from './validate-form.js'
-
-validateForm()
+import { search } from './search.js'
 
 const form = document.querySelector('[data-form]')
 
@@ -30,3 +29,6 @@ form.addEventListener('submit', (event) => {
   }
   alert('El usuario o la contraseña son incorrectos')
 })
+
+validateForm()
+search()

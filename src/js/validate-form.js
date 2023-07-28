@@ -17,7 +17,6 @@ export function validateForm() {
       span.style.display = 'none'
     } else {
       input.parentElement.classList.add('field-form--invalid')
-
       span.innerHTML = showMessageError(typeInput, input)
       span.style.display = 'block'
     }
@@ -58,7 +57,6 @@ export function validateForm() {
     typeError.forEach((error) => {
       if (input.validity[error]) {
         message = messageAlert[typeInput][error]
-        console.log(message)
       }
     })
     return message

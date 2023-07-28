@@ -1,8 +1,8 @@
 import { clientServices } from './service.js'
 import { cardsStructure } from './createCard.js'
 import { validateForm } from './validate-form.js'
+import { search } from './search.js'
 
-validateForm()
 const showByCategory = (products, category, section) => {
   const produtsByCategory = products.filter((product) =>
     product.category.includes(category)
@@ -26,3 +26,5 @@ const loadProducts = () => {
 }
 
 loadProducts()
+validateForm()
+search()

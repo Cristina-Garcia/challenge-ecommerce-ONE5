@@ -28,6 +28,8 @@ const createProduct = (name, imageURL, price, id) => {
   card.innerHTML = contentCard
   return card
 }
+//En github pages <a href="/src/screens/descriptionProduct.html?id=${id}"  no funciona
+
 //Funcion mostrar producto-description
 const showDescription = (name, imageURL, price, description, id) => {
   const containerDescription = document.createElement('div')

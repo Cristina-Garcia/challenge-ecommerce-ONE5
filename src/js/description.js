@@ -1,8 +1,7 @@
 import { clientServices } from './service.js'
 import { validateForm } from './validate-form.js'
 import { cardsStructure } from './createCard.js'
-
-validateForm()
+import { search } from './search.js'
 const url = new URL(window.location)
 const idProduct = url.searchParams.get('id')
 
@@ -41,3 +40,5 @@ clientServices.listProducts().then((products) => {
     containerSimilar.appendChild(newCard)
   })
 })
+validateForm()
+search()

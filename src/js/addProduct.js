@@ -1,8 +1,6 @@
 import { clientServices } from './service.js'
 import { validateForm } from './validate-form.js'
-
-validateForm()
-
+import { search } from './search.js'
 const formAdd = document.getElementById('form-add')
 
 formAdd.addEventListener('submit', (event) => {
@@ -37,3 +35,6 @@ formAdd.addEventListener('submit', (event) => {
       })
     })
 })
+
+validateForm()
+search()

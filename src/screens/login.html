@@ -12,9 +12,31 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
     />
+    <!-- css-memu-mobile -->
+    <link rel="stylesheet" href="../styles/menu-mobile.css" />
     <title>Log In</title>
   </head>
   <body>
+    <div class="wrapper-menu-mobile">
+      <div class="wrapper-menu-container">
+        <button class="close-menu">
+          <i class="fa-solid fa-xmark"></i>
+        </button>
+        <form class="form-search form-search-mobile">
+          <input
+            type="search"
+            class="input-search outline-none mr-20"
+            placeholder="¿Qué deseas buscar?"
+            aria-label="Buscar"
+            data-search
+            data-type="search"
+          />
+          <button type="submit">
+            <i class="fas fa-search"></i>
+          </button>
+        </form>
+      </div>
+    </div>
     <header class="header-navbar">
       <div class="flex w-52 justify-start">
         <a href="../../index.html" class="flex justify-center items-center">
@@ -29,31 +51,29 @@
         </a>
       </div>
       <div
-        class="flex w-full justify-between max-[480px]:flex-row-reverse max-[480px]:gap-2"
+        class="flex w-full justify-between max-[480px]:flex-row-reverse max-[480px]:gap-2 max-[480px]:items-center"
       >
-        <div class="flex items-center">
+        <form class="form-search flex items-center max-[480px]:hidden">
           <input
             type="search"
             name="search"
-            id="search"
-            class="input-search outline-none mr-20 max-[480px]:hidden"
+            class="input-search outline-none mr-20"
             placeholder="¿Qué deseas buscar?"
           />
-          <button>
+          <button type="submit">
             <i class="fas fa-search"></i>
           </button>
-        </div>
+        </form>
+        <button type="button" class="open-search" id="btnSearch">
+          <i class="fas fa-search"></i>
+        </button>
       </div>
     </header>
     <main class="main">
       <section class="form-login">
-        <form
-          class="flex flex-col w-[40rem] max-[768px]:w-[27rem] max-[480px]:w-[300px]"
-          style="width: min(21rem, 40rem)"
-          data-form
-        >
+        <form class="flex flex-col" style="width: min(27rem, 100%)" data-form>
           <h3
-            class="text-Wood-Charcoal font-semibold text-sm mb-8"
+            class="text-Wood-Charcoal font-semibold text-2xl mb-8"
             style="text-align: center"
           >
             Iniciar Sesión

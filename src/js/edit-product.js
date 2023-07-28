@@ -1,7 +1,6 @@
 import { clientServices } from './service.js'
 import { validateForm } from './validate-form.js'
-
-validateForm()
+import { search } from './search.js'
 
 const formEdit = document.querySelector('[data-formEdit]')
 const getInformation = async () => {
@@ -71,3 +70,6 @@ formEdit.addEventListener('submit', (event) => {
       })
     })
 })
+
+validateForm()
+search()
