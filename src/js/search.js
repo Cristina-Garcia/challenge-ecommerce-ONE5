@@ -3,10 +3,8 @@ import { cardsStructure } from './createCard.js'
 
 //search
 export function search() {
-  // const formSearch = document.getElementById('search')
   const formSearch = document.querySelector('.form-search')
 
-  // const formsTypeSearch = document.querySelectorAll('.form-search')
   const search = document.getElementById('btnSearch')
   const closeMenu = document.querySelector('.close-menu')
   const menuSearch = document.querySelector('.wrapper-menu-mobile')
@@ -30,6 +28,7 @@ export function search() {
       .querySelector('.input-search')
       .value.toLowerCase()
 
+    //si no se ingresa ninguna busqueda mostramos la página Not Found de lo contrario  continúa...
     if (inputToSearch == '') {
       window.location.href = './src/screens/NotFound.html'
     } else {
@@ -39,7 +38,10 @@ export function search() {
           const filterProducts = products.filter((product) => {
             return product.name.toLowerCase().includes(inputToSearch)
           })
-
+          //Si no hubo coincidencias en la busqueda mostramos la página Not Found
+          if (filterProducts.length === 0) {
+            window.location.href = './src/screens/NotFound.html'
+          }
           const sections = document.querySelectorAll('.section-category')
           sections.forEach((section) => {
             section.style.display = 'none'

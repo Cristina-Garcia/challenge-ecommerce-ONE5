@@ -28,7 +28,8 @@ const createProduct = (name, imageURL, price, id) => {
   card.innerHTML = contentCard
   return card
 }
-//En github pages <a href="/src/screens/descriptionProduct.html?id=${id}"  no funciona
+//En github pages <a href="/src/screens/descriptionProduct.html?id=${id}"  no funciona.La idea es que al estar mostrando la descripcion de un producto
+//Podamos ver de la lista que muestra como productos similares la descripcion de algun otro producto de interes
 
 //Funcion mostrar producto-description
 const showDescription = (name, imageURL, price, description, id) => {
