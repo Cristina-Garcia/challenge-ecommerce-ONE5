@@ -8,9 +8,11 @@ Si usted desea clonar el proyecto y ve algo como esto
 Favor de ejecutar en su terminal 
 npm install 
 
-También usted verá algo como esto
-![127 0 0 1_5500_index html (3)](https://github.com/Cristina-Garcia/challenge-ecommerce-ONE5/assets/84245528/58bc3a8b-1d6c-4cd9-b233-fcc4483183d4)
+Por ahora la parte del login lo he hecho con un array de objetos:
+Pruebe usando esto...
+username: 'admin',
+password: '@ccess0*',
 
-Favor de ejecutaer en su terminal
+De ser posible prueba agregar nuevos productos y luego eliminandolos para no vaciar la lista de productos existentes.
 
-json-server --watch db.json
+Gracias!!
